@@ -4,5 +4,6 @@
 !*.cpp
 !*.c
 !*.rs
+!*.sh
 
 test.cpp
