@@ -12,7 +12,6 @@
 
 #include <algorithm>
 #include <iostream>
-#include <set>
 #include <unordered_set>
 #include <vector>
 using namespace std;
@@ -27,7 +26,7 @@ int main() {
     cin >> n >> m;
 
     vector<int> vals;
-    set<int> vals_set;
+    unordered_set<int> vals_set;
     for (int i = 0; i < n; i++) {
         int val;
         cin >> val;
