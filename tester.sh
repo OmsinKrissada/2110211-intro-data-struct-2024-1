@@ -1,6 +1,6 @@
 g++-14 --std=c++17 $1.cpp -o $1 && cat data/in.txt | ./$1 > data/generated.txt
-s1=$(cat data/generated.txt)
-s2=$(cat data/out.txt)
+s1=$(cat data/generated.txt | xargs)
+s2=$(cat data/out.txt | xargs)
 
 if [[ "$s1" == "$s2" ]]
 then
