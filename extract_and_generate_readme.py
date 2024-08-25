@@ -3,7 +3,7 @@
 import re
 
 quizes = {
-    "Quiz 0": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
+    "Quiz 0 (sample quiz, no score)": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
 }
 quiz_names = set()
 
@@ -52,6 +52,8 @@ def print_task_col(t):
 
 def generateMarkdown():
     # Quiz Tables
+    print(">[!NOTE]")
+    print(">Only solutions that receive full score are included in this repository.")
     print("\n## Quizes")
     for quiz_name, task_names in quizes.items():
         print(f"### {quiz_name}")

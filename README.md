@@ -1,6 +1,8 @@
+>[!NOTE]
+>Only solutions that receive full score are included in this repository.
 
 ## Quizes
-### Quiz 0
+### Quiz 0 (sample quiz, no score)
 Name|PDF|My Solution|Stars
 ---|---|---|---
 Multi Insert|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|[Solution](src/d63_q1a_multi_insert.cpp)|★☆
