@@ -2,6 +2,11 @@
 
 import re
 
+quizes = {
+    "Quiz 0": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
+}
+quiz_names = set()
+
 with open("./scraped.html", encoding="utf8") as f:
     data = f.read()
 data = data.replace("&ZeroWidthSpace;", "")
@@ -20,39 +25,51 @@ tasks = [
 # tasks.sort(key=lambda x: int(x["id"]))
 
 
-def generateMarkdown():
+def print_task_col(t):
     import os
 
-    existing = os.listdir("../src")
-    existing_quiz = os.listdir("../src/quiz")
-
-    if t["name"] + ".cpp" in existing_quiz:
+    existing = os.listdir("./src")
+    src = ""
+    if t["name"] + ".cpp" in existing:
         src = t["name"] + ".cpp"
-    elif t["name"] + ".c" in existing_quiz:
+    elif t["name"] + ".c" in existing:
         src = t["name"] + ".c"
+    print(
+        "|".join(
+            [
+                f'{t["pretty_name"]}',
+                f'[{t["name"]}.pdf](pdfs/{t["name"]}.pdf)',
+                (f"[Solution](src/{src})" if src else "not done yet"),
+                (
+                    (int(t["stars"]) * "★" + int(t["stars"] % 1 * 2) * "☆")
+                    if t["stars"]
+                    else "-"
+                ),
+            ]
+        ),
+    )
 
+
+def generateMarkdown():
+    # Quiz Tables
+    print("\n## Quizes")
+    for quiz_name, task_names in quizes.items():
+        print(f"### {quiz_name}")
+        print("Name|PDF|My Solution|Stars")
+        print("---|---|---|---")
+        for tn in task_names:
+            quiz_names.add(tn)
+            t = [x for x in tasks if x["name"] == tn][0]
+            print_task_col(t)
+
+    # Practice Problems
+    print("## Practice Problems")
     print("Name|PDF|My Solution|Stars")
     print("---|---|---|---")
     for t in tasks:
-        src = ""
-        if t["name"] + ".cpp" in existing:
-            src = t["name"] + ".cpp"
-        elif t["name"] + ".c" in existing:
-            src = t["name"] + ".c"
-        print(
-            "|".join(
-                [
-                    f'{t["pretty_name"]}',
-                    f'[{t["name"]}.pdf](pdfs/{t["name"]}.pdf)',
-                    (f"[Solution](src/{src})" if src else "not done yet"),
-                    (
-                        (int(t["stars"]) * "★" + int(t["stars"] % 1 * 2) * "☆")
-                        if t["stars"]
-                        else "-"
-                    ),
-                ]
-            ),
-        )
+        if t["name"] in quiz_names:
+            continue
+        print_task_col(t)
 
 
 def download():
@@ -60,7 +77,7 @@ def download():
     import time
     import random
 
-    existing = os.listdir("../pdfs")
+    existing = os.listdir("./pdfs")
 
     for t in tasks:
         filename = t["name"] + ".pdf"
@@ -79,11 +96,11 @@ def moveFromDownloadFolder():
     # print("Moving files to destination folder")
     import os
 
-    existing = os.listdir("../pdfs")
+    existing = os.listdir("./pdfs")
     for t in tasks:
         if t["name"] + ".pdf" in existing:
             continue
-        os.system(f"mv ~/Downloads/{t['name']} ../pdfs/{t['name'].strip()}.pdf")
+        os.system(f"mv ~/Downloads/{t['name']} ./pdfs/{t['name'].strip()}.pdf")
 
 
 download()

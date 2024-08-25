@@ -1,10 +1,16 @@
+
+## Quizes
+### Quiz 0
+Name|PDF|My Solution|Stars
+---|---|---|---
+Multi Insert|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|[Solution](src/d63_q1a_multi_insert.cpp)|★☆
+Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](src/d67_q0a_shoe_sizing.cpp)|★☆
+## Practice Problems
 Name|PDF|My Solution|Stars
 ---|---|---|---
 Histogram|[d57_q0_histogram.pdf](pdfs/d57_q0_histogram.pdf)|[Solution](src/d57_q0_histogram.cpp)|★
 Interval Count|[d63_q1b_interval_count.pdf](pdfs/d63_q1b_interval_count.pdf)|[Solution](src/d63_q1b_interval_count.cpp)|★☆
 Check Mapping|[ex00e3.pdf](pdfs/ex00e3.pdf)|[Solution](src/ex00e3.cpp)|★
-Multi Insert|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|not done yet|★☆
-Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|not done yet|★☆
 CUCAS Rating|[d58_q0_rating.pdf](pdfs/d58_q0_rating.pdf)|[Solution](src/d58_q0_rating.cpp)|★
 Vote|[d62_q1a_vote.pdf](pdfs/d62_q1a_vote.pdf)|[Solution](src/d62_q1a_vote.cpp)|★
 Most Frequent Word|[ds01_most.pdf](pdfs/ds01_most.pdf)|[Solution](src/ds01_most.cpp)|☆

@@ -10,7 +10,6 @@
 !pdfs/
 !pdfs/*
 !README.md
-!extract/
-!extract/extractor.py
+!extractor.py
 
 test.cpp
