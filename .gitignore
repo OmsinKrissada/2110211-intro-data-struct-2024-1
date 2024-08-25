@@ -6,5 +6,8 @@
 !*.rs
 !*.sh
 !quiz
+!pdfs/
+!pdfs/*
+!README.md
 
 test.cpp
