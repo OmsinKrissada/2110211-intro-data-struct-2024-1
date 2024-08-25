@@ -17,39 +17,34 @@ tasks = [
     for a, b in zip(ids, titles)
     if not a[1].strip().startswith("diglab")
 ]
-tasks.sort(key=lambda x: int(x["id"]))
+# tasks.sort(key=lambda x: int(x["id"]))
 
 
 def generateMarkdown():
     import os
 
-    existing = os.listdir("..")
+    existing = os.listdir("../src")
+    existing_quiz = os.listdir("../src/quiz")
 
-    print(
-        """<table>
-    <tr>
-        <th>Task Name</th>
-        <th>Task PDF</th>
-        <th>My Solution</th>
-        <th>Stars</th>
-    </tr>"""
-    )
-    # print("ID|Task Name|File name|Stars")
-    # print("---|---|---|---")
+    if t["name"] + ".cpp" in existing_quiz:
+        src = t["name"] + ".cpp"
+    elif t["name"] + ".c" in existing_quiz:
+        src = t["name"] + ".c"
+
+    print("Name|PDF|My Solution|Stars")
+    print("---|---|---|---")
     for t in tasks:
-        # print(f"\n\t<!-- ID: {t['id']} -->")
-        print(f"\t<tr>")
-        print("\t\t<td>", end="")
+        src = ""
+        if t["name"] + ".cpp" in existing:
+            src = t["name"] + ".cpp"
+        elif t["name"] + ".c" in existing:
+            src = t["name"] + ".c"
         print(
-            "</td>\n\t\t<td>".join(
+            "|".join(
                 [
-                    t["pretty_name"],
-                    f'<a href="./pdfs/{t["name"]}.pdf">PDF</a>',
-                    (
-                        f'<a href="./{t["name"]}.cpp">Solution</a>'
-                        if t["name"] + ".cpp" in existing
-                        else "soon"
-                    ),
+                    f'{t["pretty_name"]}',
+                    f'[{t["name"]}.pdf](pdfs/{t["name"]}.pdf)',
+                    (f"[Solution](src/{src})" if src else "not done yet"),
                     (
                         (int(t["stars"]) * "★" + int(t["stars"] % 1 * 2) * "☆")
                         if t["stars"]
@@ -57,11 +52,7 @@ def generateMarkdown():
                     ),
                 ]
             ),
-            end="",
         )
-        print("</td>")
-        print("\t</tr>")
-    print("</table>")
 
 
 def download():

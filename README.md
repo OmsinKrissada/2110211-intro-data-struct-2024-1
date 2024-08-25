@@ -1,142 +1,29 @@
-<table>
-    <tr>
-        <th>Task Name</th>
-        <th>Task PDF</th>
-        <th>Stars</th>
-    </tr>
-	<tr>
-		<td>Time After</td>
-		<td><a href="pdfs/ex00e1.pdf">ex00e1.pdf</a></td>
-		<td>☆</td>
-	</tr>
-	<tr>
-		<td>Min Max</td>
-		<td><a href="pdfs/ex00e2.pdf">ex00e2.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Check Mapping</td>
-		<td><a href="pdfs/ex00e3.pdf">ex00e3.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Number Triangles</td>
-		<td><a href="pdfs/ex02m1_triangle.pdf">ex02m1_triangle.pdf</a></td>
-		<td>★☆</td>
-	</tr>
-	<tr>
-		<td>Reverse Vector 1</td>
-		<td><a href="pdfs/ds00_reverse.pdf">ds00_reverse.pdf</a></td>
-		<td>☆</td>
-	</tr>
-	<tr>
-		<td>Reverse Vector 2</td>
-		<td><a href="pdfs/ds00_reverse2.pdf">ds00_reverse2.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Most Frequent Word</td>
-		<td><a href="pdfs/ds01_most.pdf">ds01_most.pdf</a></td>
-		<td>☆</td>
-	</tr>
-	<tr>
-		<td>Remove Even</td>
-		<td><a href="pdfs/d57_q0_remove_even.pdf">d57_q0_remove_even.pdf</a></td>
-		<td>☆</td>
-	</tr>
-	<tr>
-		<td>Histogram</td>
-		<td><a href="pdfs/d57_q0_histogram.pdf">d57_q0_histogram.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Intersection</td>
-		<td><a href="pdfs/ds02_intersection.pdf">ds02_intersection.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>CUCAS Rating</td>
-		<td><a href="pdfs/d58_q0_rating.pdf">d58_q0_rating.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Quick Sum</td>
-		<td><a href="pdfs/a59_q1_quicksum.pdf">a59_q1_quicksum.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Vector Swap</td>
-		<td><a href="pdfs/d59_q0_vector_swap.pdf">d59_q0_vector_swap.pdf</a></td>
-		<td>★☆</td>
-	</tr>
-	<tr>
-		<td>Walk in the Forest</td>
-		<td><a href="pdfs/a60a_midp4_walk.pdf">a60a_midp4_walk.pdf</a></td>
-		<td>★☆</td>
-	</tr>
-	<tr>
-		<td>Rope</td>
-		<td><a href="pdfs/a60b_mid_p2_rope.pdf">a60b_mid_p2_rope.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Vote</td>
-		<td><a href="pdfs/d62_q1a_vote.pdf">d62_q1a_vote.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Vector Punch</td>
-		<td><a href="pdfs/d62_q1a_punch.pdf">d62_q1a_punch.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Grandfather</td>
-		<td><a href="pdfs/d62_q1b_grandfather.pdf">d62_q1b_grandfather.pdf</a></td>
-		<td>★★</td>
-	</tr>
-	<tr>
-		<td>Vector Operation</td>
-		<td><a href="pdfs/d62_q1c_vector_op.pdf">d62_q1c_vector_op.pdf</a></td>
-		<td>☆</td>
-	</tr>
-	<tr>
-		<td>Vector Intersection</td>
-		<td><a href="pdfs/d62_q1c_vector_intersection.pdf">d62_q1c_vector_intersection.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Jumping</td>
-		<td><a href="pdfs/a62_q1a_jumping.pdf">a62_q1a_jumping.pdf</a></td>
-		<td>★</td>
-	</tr>
-	<tr>
-		<td>Pair Sum</td>
-		<td><a href="pdfs/ds01_pair_sum.pdf">ds01_pair_sum.pdf</a></td>
-		<td>★☆</td>
-	</tr>
-	<tr>
-		<td>Multi Insert</td>
-		<td><a href="pdfs/d63_q1a_multi_insert.pdf">d63_q1a_multi_insert.pdf</a></td>
-		<td>★☆</td>
-	</tr>
-	<tr>
-		<td>Interval Count</td>
-		<td><a href="pdfs/d63_q1b_interval_count.pdf">d63_q1b_interval_count.pdf</a></td>
-		<td>★☆</td>
-	</tr>
-	<tr>
-		<td>Table without 11</td>
-		<td><a href="pdfs/a64_q2_table_no_11.pdf">a64_q2_table_no_11.pdf</a></td>
-		<td>★☆</td>
-	</tr>
-	<tr>
-		<td>Distance One</td>
-		<td><a href="pdfs/a65_q2a_distance_one.pdf">a65_q2a_distance_one.pdf</a></td>
-		<td>★☆</td>
-	</tr>
-	<tr>
-		<td>Shoe Sizing</td>
-		<td><a href="pdfs/d67_q0a_shoe_sizing.pdf">d67_q0a_shoe_sizing.pdf</a></td>
-		<td>★☆</td>
-	</tr>
-</table>
+Name|PDF|My Solution|Stars
+---|---|---|---
+Histogram|[d57_q0_histogram.pdf](pdfs/d57_q0_histogram.pdf)|[Solution](src/d57_q0_histogram.cpp)|★
+Interval Count|[d63_q1b_interval_count.pdf](pdfs/d63_q1b_interval_count.pdf)|[Solution](src/d63_q1b_interval_count.cpp)|★☆
+Check Mapping|[ex00e3.pdf](pdfs/ex00e3.pdf)|[Solution](src/ex00e3.cpp)|★
+Multi Insert|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|not done yet|★☆
+Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|not done yet|★☆
+CUCAS Rating|[d58_q0_rating.pdf](pdfs/d58_q0_rating.pdf)|[Solution](src/d58_q0_rating.cpp)|★
+Vote|[d62_q1a_vote.pdf](pdfs/d62_q1a_vote.pdf)|[Solution](src/d62_q1a_vote.cpp)|★
+Most Frequent Word|[ds01_most.pdf](pdfs/ds01_most.pdf)|[Solution](src/ds01_most.cpp)|☆
+Intersection|[ds02_intersection.pdf](pdfs/ds02_intersection.pdf)|[Solution](src/ds02_intersection.cpp)|★
+Grandfather|[d62_q1b_grandfather.pdf](pdfs/d62_q1b_grandfather.pdf)|[Solution](src/d62_q1b_grandfather.cpp)|★★
+Vector Intersection|[d62_q1c_vector_intersection.pdf](pdfs/d62_q1c_vector_intersection.pdf)|[Solution](src/d62_q1c_vector_intersection.cpp)|★
+Pair Sum|[ds01_pair_sum.pdf](pdfs/ds01_pair_sum.pdf)|[Solution](src/ds01_pair_sum.cpp)|★☆
+Vector Swap|[d59_q0_vector_swap.pdf](pdfs/d59_q0_vector_swap.pdf)|[Solution](src/d59_q0_vector_swap.cpp)|★☆
+Reverse Vector 2|[ds00_reverse2.pdf](pdfs/ds00_reverse2.pdf)|[Solution](src/ds00_reverse2.cpp)|★
+Vector Punch|[d62_q1a_punch.pdf](pdfs/d62_q1a_punch.pdf)|[Solution](src/d62_q1a_punch.cpp)|★
+Vector Operation|[d62_q1c_vector_op.pdf](pdfs/d62_q1c_vector_op.pdf)|[Solution](src/d62_q1c_vector_op.cpp)|☆
+Remove Even|[d57_q0_remove_even.pdf](pdfs/d57_q0_remove_even.pdf)|[Solution](src/d57_q0_remove_even.cpp)|☆
+Reverse Vector 1|[ds00_reverse.pdf](pdfs/ds00_reverse.pdf)|[Solution](src/ds00_reverse.cpp)|☆
+Time After|[ex00e1.pdf](pdfs/ex00e1.pdf)|[Solution](src/ex00e1.c)|☆
+Min Max|[ex00e2.pdf](pdfs/ex00e2.pdf)|[Solution](src/ex00e2.cpp)|★
+Walk in the Forest|[a60a_midp4_walk.pdf](pdfs/a60a_midp4_walk.pdf)|not done yet|★☆
+Table without 11|[a64_q2_table_no_11.pdf](pdfs/a64_q2_table_no_11.pdf)|not done yet|★☆
+Distance One|[a65_q2a_distance_one.pdf](pdfs/a65_q2a_distance_one.pdf)|not done yet|★☆
+Rope|[a60b_mid_p2_rope.pdf](pdfs/a60b_mid_p2_rope.pdf)|not done yet|★
+Jumping|[a62_q1a_jumping.pdf](pdfs/a62_q1a_jumping.pdf)|not done yet|★
+Number Triangles|[ex02m1_triangle.pdf](pdfs/ex02m1_triangle.pdf)|not done yet|★☆
+Quick Sum|[a59_q1_quicksum.pdf](pdfs/a59_q1_quicksum.pdf)|not done yet|★
