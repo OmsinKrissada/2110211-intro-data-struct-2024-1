@@ -32,4 +32,4 @@ Distance One|[a65_q2a_distance_one.pdf](pdfs/a65_q2a_distance_one.pdf)|not done 
 Rope|[a60b_mid_p2_rope.pdf](pdfs/a60b_mid_p2_rope.pdf)|not done yet|★
 Jumping|[a62_q1a_jumping.pdf](pdfs/a62_q1a_jumping.pdf)|not done yet|★
 Number Triangles|[ex02m1_triangle.pdf](pdfs/ex02m1_triangle.pdf)|not done yet|★☆
-Quick Sum|[a59_q1_quicksum.pdf](pdfs/a59_q1_quicksum.pdf)|not done yet|★
+Quick Sum|[a59_q1_quicksum.pdf](pdfs/a59_q1_quicksum.pdf)|[Solution](src/a59_q1_quicksum.cpp)|★
