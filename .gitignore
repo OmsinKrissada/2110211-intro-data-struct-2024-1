@@ -10,6 +10,6 @@
 !pdfs/
 !pdfs/*
 !README.md
-!extractor.py
+!extract_and_generate_readme.py
 
 test.cpp
