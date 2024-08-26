@@ -10,6 +10,9 @@ Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](s
 ## Practice Problems
 Name|PDF|My Solution|Stars
 ---|---|---|---
+Evaluate Postfix|[d57_q1_postfix.pdf](pdfs/d57_q1_postfix.pdf)|not done yet|-
+Stack Concatenate|[d59_q0_stack_concat.pdf](pdfs/d59_q0_stack_concat.pdf)|[Solution](src/d59_q0_stack_concat.cpp)|-
+Second Min|[d64_q1a_second_min.pdf](pdfs/d64_q1a_second_min.pdf)|not done yet|-
 Histogram|[d57_q0_histogram.pdf](pdfs/d57_q0_histogram.pdf)|[Solution](src/d57_q0_histogram.cpp)|★
 Interval Count|[d63_q1b_interval_count.pdf](pdfs/d63_q1b_interval_count.pdf)|[Solution](src/d63_q1b_interval_count.cpp)|★☆
 Check Mapping|[ex00e3.pdf](pdfs/ex00e3.pdf)|[Solution](src/ex00e3.cpp)|★
@@ -28,10 +31,3 @@ Remove Even|[d57_q0_remove_even.pdf](pdfs/d57_q0_remove_even.pdf)|[Solution](src
 Reverse Vector 1|[ds00_reverse.pdf](pdfs/ds00_reverse.pdf)|[Solution](src/ds00_reverse.cpp)|☆
 Time After|[ex00e1.pdf](pdfs/ex00e1.pdf)|[Solution](src/ex00e1.c)|☆
 Min Max|[ex00e2.pdf](pdfs/ex00e2.pdf)|[Solution](src/ex00e2.cpp)|★
-Walk in the Forest|[a60a_midp4_walk.pdf](pdfs/a60a_midp4_walk.pdf)|not done yet|★☆
-Table without 11|[a64_q2_table_no_11.pdf](pdfs/a64_q2_table_no_11.pdf)|not done yet|★☆
-Distance One|[a65_q2a_distance_one.pdf](pdfs/a65_q2a_distance_one.pdf)|not done yet|★☆
-Rope|[a60b_mid_p2_rope.pdf](pdfs/a60b_mid_p2_rope.pdf)|not done yet|★
-Jumping|[a62_q1a_jumping.pdf](pdfs/a62_q1a_jumping.pdf)|not done yet|★
-Number Triangles|[ex02m1_triangle.pdf](pdfs/ex02m1_triangle.pdf)|not done yet|★☆
-Quick Sum|[a59_q1_quicksum.pdf](pdfs/a59_q1_quicksum.pdf)|[Solution](src/a59_q1_quicksum.cpp)|★

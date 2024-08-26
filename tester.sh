@@ -2,6 +2,9 @@ g++-14 --std=c++17 src/$1.cpp -o bin/$1 && cat data/in.txt | ./bin/$1 > data/gen
 s1=$(cat data/generated.txt | xargs)
 s2=$(cat data/out.txt | xargs)
 
+echo $s1 > data/generated.txt
+echo $s2 > data/out.txt
+
 if [[ "$s1" == "$s2" ]]
 then
 	echo "Passed"
