@@ -12,8 +12,8 @@ Name|PDF|My Solution|Stars
 ---|---|---|---
 Evaluate Postfix|[d57_q1_postfix.pdf](pdfs/d57_q1_postfix.pdf)|[Solution](src/d57_q1_postfix)|★★
 Stack Concatenate|[d59_q0_stack_concat.pdf](pdfs/d59_q0_stack_concat.pdf)|[Solution](src/d59_q0_stack_concat.cpp)|★☆
-Second Min|[d64_q1a_second_min.pdf](pdfs/d64_q1a_second_min.pdf)|not done yet|★☆
-Vector List Erase|[d63_q1b_list_erase.pdf](pdfs/d63_q1b_list_erase.pdf)|not done yet|-
+Second Min|[d64_q1a_second_min.pdf](pdfs/d64_q1a_second_min.pdf)|[Solution](src/d64_q1a_second_min.cpp)|★☆
+Vector List Erase|[d63_q1b_list_erase.pdf](pdfs/d63_q1b_list_erase.pdf)|[Solution](src/d63_q1b_list_erase.cpp)|-
 Card Battle|[d64_q1a_card_battle.pdf](pdfs/d64_q1a_card_battle.pdf)|not done yet|-
 Member Multiply|[d65_q1a_multiply.pdf](pdfs/d65_q1a_multiply.pdf)|not done yet|-
 Vector to Map|[d60_q0_v2m.pdf](pdfs/d60_q0_v2m.pdf)|[Solution](src/d60_q0_v2m.cpp)|-
