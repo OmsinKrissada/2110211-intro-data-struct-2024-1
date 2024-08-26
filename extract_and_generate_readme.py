@@ -25,21 +25,27 @@ tasks = [
 # tasks.sort(key=lambda x: int(x["id"]))
 
 
-def print_task_col(t):
-    import os
+import os
 
-    existing = os.listdir("./src")
+src_root = "src/"
+existing_files = os.listdir(src_root)
+existing_subdirs = [x[0] for x in os.walk(src_root)]
+
+
+def print_task_col(t):
     src = ""
-    if t["name"] + ".cpp" in existing:
-        src = t["name"] + ".cpp"
-    elif t["name"] + ".c" in existing:
-        src = t["name"] + ".c"
+    if t["name"] + ".cpp" in existing_files:
+        src = src_root + t["name"] + ".cpp"
+    elif t["name"] + ".c" in existing_files:
+        src = src_root + t["name"] + ".c"
+    elif src_root + t["name"] in existing_subdirs:
+        src = src_root + t["name"]
     print(
         "|".join(
             [
                 f'{t["pretty_name"]}',
                 f'[{t["name"]}.pdf](pdfs/{t["name"]}.pdf)',
-                (f"[Solution](src/{src})" if src else "not done yet"),
+                (f"[Solution]({src})" if src else "not done yet"),
                 (
                     (int(t["stars"]) * "★" + int(t["stars"] % 1 * 2) * "☆")
                     if t["stars"]

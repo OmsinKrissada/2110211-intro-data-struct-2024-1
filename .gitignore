@@ -1,15 +1,27 @@
+# *
+
+# !.gitignore
+# !src/
+# !*.cpp
+# !*.c
+# !*.rs
+# !*.sh
+
+# !quiz
+# !pdfs/
+# !pdfs/*
+# !README.md
+# !extract_and_generate_readme.py
+
+# test.cpp
+
 *
+!*.*
+!*/
 
-!.gitignore
-!src/
-!*.cpp
-!*.c
-!*.rs
-!*.sh
-!quiz
-!pdfs/
-!pdfs/*
-!README.md
-!extract_and_generate_readme.py
+.vscode
 
-test.cpp
+scraped.html
+test.*
+*.out
+data/

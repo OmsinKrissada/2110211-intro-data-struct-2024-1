@@ -10,7 +10,7 @@ Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](s
 ## Practice Problems
 Name|PDF|My Solution|Stars
 ---|---|---|---
-Evaluate Postfix|[d57_q1_postfix.pdf](pdfs/d57_q1_postfix.pdf)|not done yet|★★
+Evaluate Postfix|[d57_q1_postfix.pdf](pdfs/d57_q1_postfix.pdf)|[Solution](src/d57_q1_postfix)|★★
 Stack Concatenate|[d59_q0_stack_concat.pdf](pdfs/d59_q0_stack_concat.pdf)|[Solution](src/d59_q0_stack_concat.cpp)|★☆
 Second Min|[d64_q1a_second_min.pdf](pdfs/d64_q1a_second_min.pdf)|not done yet|★☆
 Vector List Erase|[d63_q1b_list_erase.pdf](pdfs/d63_q1b_list_erase.pdf)|not done yet|-
