@@ -1,6 +1,9 @@
 #!/usr/bin//env python3
 
 import re
+import os
+import time
+import random
 
 quizes = {
     "Quiz 0 (sample quiz, no score)": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
@@ -24,8 +27,6 @@ tasks = [
 ]
 # tasks.sort(key=lambda x: int(x["id"]))
 
-
-import os
 
 src_root = "src/"
 existing_files = os.listdir(src_root)
@@ -81,10 +82,6 @@ def generateMarkdown():
 
 
 def download():
-    import os
-    import time
-    import random
-
     existing = os.listdir("./pdfs")
 
     for t in tasks:
@@ -102,7 +99,6 @@ def download():
 
 def moveFromDownloadFolder():
     # print("Moving files to destination folder")
-    import os
 
     existing = os.listdir("./pdfs")
     for t in tasks:
