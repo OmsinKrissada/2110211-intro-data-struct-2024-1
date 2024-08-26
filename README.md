@@ -10,9 +10,15 @@ Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](s
 ## Practice Problems
 Name|PDF|My Solution|Stars
 ---|---|---|---
-Evaluate Postfix|[d57_q1_postfix.pdf](pdfs/d57_q1_postfix.pdf)|not done yet|-
-Stack Concatenate|[d59_q0_stack_concat.pdf](pdfs/d59_q0_stack_concat.pdf)|[Solution](src/d59_q0_stack_concat.cpp)|-
-Second Min|[d64_q1a_second_min.pdf](pdfs/d64_q1a_second_min.pdf)|not done yet|-
+Evaluate Postfix|[d57_q1_postfix.pdf](pdfs/d57_q1_postfix.pdf)|not done yet|★★
+Stack Concatenate|[d59_q0_stack_concat.pdf](pdfs/d59_q0_stack_concat.pdf)|[Solution](src/d59_q0_stack_concat.cpp)|★☆
+Second Min|[d64_q1a_second_min.pdf](pdfs/d64_q1a_second_min.pdf)|not done yet|★☆
+Vector List Erase|[d63_q1b_list_erase.pdf](pdfs/d63_q1b_list_erase.pdf)|not done yet|-
+Card Battle|[d64_q1a_card_battle.pdf](pdfs/d64_q1a_card_battle.pdf)|not done yet|-
+Member Multiply|[d65_q1a_multiply.pdf](pdfs/d65_q1a_multiply.pdf)|not done yet|-
+Vector to Map|[d60_q0_v2m.pdf](pdfs/d60_q0_v2m.pdf)|not done yet|-
+Hiatus|[d63_q1a_hiatus.pdf](pdfs/d63_q1a_hiatus.pdf)|not done yet|-
+Inside Interval|[d63_qx_inside_interval.pdf](pdfs/d63_qx_inside_interval.pdf)|not done yet|-
 Histogram|[d57_q0_histogram.pdf](pdfs/d57_q0_histogram.pdf)|[Solution](src/d57_q0_histogram.cpp)|★
 Interval Count|[d63_q1b_interval_count.pdf](pdfs/d63_q1b_interval_count.pdf)|[Solution](src/d63_q1b_interval_count.cpp)|★☆
 Check Mapping|[ex00e3.pdf](pdfs/ex00e3.pdf)|[Solution](src/ex00e3.cpp)|★
