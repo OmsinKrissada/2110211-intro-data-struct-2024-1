@@ -12,12 +12,20 @@ s2=$(cat data/out.txt | xargs)
 # echo $s1 > data/generated.txt
 # echo $s2 > data/out.txt
 
-if [[ "$s1" == "$s2" ]]
+if [[ "$s2" ]]
 then
-	echo "Results matched."
+
+	if [[ "$s1" == "$s2" ]]
+	then
+		echo "Results matched."
+	else
+		echo "Results don't match. To be correct, the following changes must be achieved.\n"
+		diff --minimal --color data/generated.txt data/out.txt
+	fi
+
 else
-	echo "Results don't match. To be correct, the following changes must be achieved.\n"
-	diff --minimal --color data/generated.txt data/out.txt
+	echo $output
 fi
 
-echo execution took $(expr $end - $begin) seconds
+echo --------------------------
+echo "execution took $(expr $end - $begin) second(s)"
