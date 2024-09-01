@@ -84,10 +84,16 @@ def generateMarkdown():
 def download():
     existing = os.listdir("./pdfs")
 
+    first = True
     for t in tasks:
         filename = t["name"] + ".pdf"
         if filename in existing:
             continue
+        if first:
+            first = False
+            # this is specific to my setup
+            os.system("open -a Arc arc://settings/content/pdfDocuments")
+            input("Press Enter to continue")
         target_url = (
             f"https://grader.nattee.net/problems/{t['id']}/get_statement/{filename}"
         )

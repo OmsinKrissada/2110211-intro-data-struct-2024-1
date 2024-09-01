@@ -10,11 +10,18 @@ Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](s
 ## Practice Problems
 Name|PDF|My Solution|Stars
 ---|---|---|---
-Queue Count|[d62_q1b_queue_count.pdf](pdfs/d62_q1b_queue_count.pdf)|[Solution](src/d62_q1b_queue_count.cpp)|-
-Food Delivery|[d65_q1a_delivery.pdf](pdfs/d65_q1a_delivery.pdf)|not done yet|-
+3: Cross 2D|[d65_q1b_cross_2d.pdf](pdfs/d65_q1b_cross_2d.pdf)|not done yet|★★
+4: Sparse Vector|[d65_q1b_sparse_vector.pdf](pdfs/d65_q1b_sparse_vector.pdf)|not done yet|★★☆
+Ice Cream|[d65_q1c_ice_cream.pdf](pdfs/d65_q1c_ice_cream.pdf)|not done yet|★★
+Min of Max|[d65_q1c_min_of_max.pdf](pdfs/d65_q1c_min_of_max.pdf)|not done yet|★★☆
+Zipcode|[d60_q0_zipcode.pdf](pdfs/d60_q0_zipcode.pdf)|not done yet|★☆
+Queue Count|[d62_q1b_queue_count.pdf](pdfs/d62_q1b_queue_count.pdf)|[Solution](src/d62_q1b_queue_count.cpp)|★☆
+Food Delivery|[d65_q1a_delivery.pdf](pdfs/d65_q1a_delivery.pdf)|[Solution](src/d65_q1a_delivery.cpp)|★★★
 Evaluate Postfix|[d57_q1_postfix.pdf](pdfs/d57_q1_postfix.pdf)|[Solution](src/d57_q1_postfix)|★★
 Stack Concatenate|[d59_q0_stack_concat.pdf](pdfs/d59_q0_stack_concat.pdf)|[Solution](src/d59_q0_stack_concat.cpp)|★☆
 Second Min|[d64_q1a_second_min.pdf](pdfs/d64_q1a_second_min.pdf)|[Solution](src/d64_q1a_second_min.cpp)|★☆
+Moving Median|[d64_q1b_moving_median.pdf](pdfs/d64_q1b_moving_median.pdf)|not done yet|★★★☆
+Password|[d64_q1b_password.pdf](pdfs/d64_q1b_password.pdf)|not done yet|★☆
 Vector List Erase|[d63_q1b_list_erase.pdf](pdfs/d63_q1b_list_erase.pdf)|[Solution](src/d63_q1b_list_erase.cpp)|★★
 Card Battle|[d64_q1a_card_battle.pdf](pdfs/d64_q1a_card_battle.pdf)|not done yet|★★
 Member Multiply|[d65_q1a_multiply.pdf](pdfs/d65_q1a_multiply.pdf)|not done yet|★☆
