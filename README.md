@@ -7,7 +7,7 @@ Name|PDF|My Solution|Stars
 ---|---|---|---
 Multi Insert|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|[Solution](src/d63_q1a_multi_insert.cpp)|★☆
 Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](src/d67_q0a_shoe_sizing.cpp)|★☆
-## Practice Problems
+## Practice Problems (25/40, 62% done)
 Name|PDF|My Solution|Stars
 ---|---|---|---
 Booking|[d66_q1a_booking.pdf](pdfs/d66_q1a_booking.pdf)|not done yet|-

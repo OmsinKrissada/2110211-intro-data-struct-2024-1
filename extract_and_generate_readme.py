@@ -15,12 +15,29 @@ with open("./scraped.html", encoding="utf8") as f:
 data = data.replace("&ZeroWidthSpace;", "")
 titles = re.findall(r"<strong>\n(.+)\n<span(.*)</span>\n</strong>", data)
 ids = re.findall("/problems/(.*)/get_statement/(.+).pdf", data)
+
+
+src_root = "src/"
+existing_files = os.listdir(src_root)
+existing_subdirs = [x[0] for x in os.walk(src_root)]
+def get_src(name):
+    src = ""
+    if name + ".cpp" in existing_files:
+        src = src_root + name + ".cpp"
+    elif name + ".c" in existing_files:
+        src = src_root + name + ".c"
+    elif src_root + name in existing_subdirs:
+        src = src_root + name
+    return src
+
+
 tasks = [
     {
         "id": a[0],
         "name": a[1].strip(),
         "pretty_name": b[0].strip(),
         "stars": b[1].count("star") - b[1].count("star_half") * 0.5,
+        "src":get_src(a[1].strip())
     }
     for a, b in zip(ids, titles)
     if not a[1].strip().startswith("diglab")
@@ -28,25 +45,13 @@ tasks = [
 # tasks.sort(key=lambda x: int(x["id"]))
 
 
-src_root = "src/"
-existing_files = os.listdir(src_root)
-existing_subdirs = [x[0] for x in os.walk(src_root)]
-
-
-def print_task_col(t):
-    src = ""
-    if t["name"] + ".cpp" in existing_files:
-        src = src_root + t["name"] + ".cpp"
-    elif t["name"] + ".c" in existing_files:
-        src = src_root + t["name"] + ".c"
-    elif src_root + t["name"] in existing_subdirs:
-        src = src_root + t["name"]
-    print(
+def draw_task_col(t):
+    return str(
         "|".join(
             [
                 f'{t["pretty_name"]}',
                 f'[{t["name"]}.pdf](pdfs/{t["name"]}.pdf)',
-                (f"[Solution]({src})" if src else "not done yet"),
+                (f"[Solution]({t["src"]})" if t["src"] else "not done yet"),
                 (
                     (int(t["stars"]) * "★" + int(t["stars"] % 1 * 2) * "☆")
                     if t["stars"]
@@ -58,10 +63,11 @@ def print_task_col(t):
 
 
 def generateMarkdown():
-    # Quiz Tables
     print(">[!NOTE]")
     print(">Only solutions that receive full score are included in this repository.")
     print("\n## Quizes")
+
+    # Quiz Tables
     for quiz_name, task_names in quizes.items():
         print(f"### {quiz_name}")
         print("Name|PDF|My Solution|Stars")
@@ -69,16 +75,25 @@ def generateMarkdown():
         for tn in task_names:
             quiz_names.add(tn)
             t = [x for x in tasks if x["name"] == tn][0]
-            print_task_col(t)
+            print(draw_task_col(t))
 
     # Practice Problems
-    print("## Practice Problems")
-    print("Name|PDF|My Solution|Stars")
-    print("---|---|---|---")
+    lines = ''
+    done = 0
+    total = 0
     for t in tasks:
         if t["name"] in quiz_names:
             continue
-        print_task_col(t)
+        total += 1
+        if t["src"]:
+            done += 1
+        lines += draw_task_col(t) + '\n'
+
+
+    print(f"## Practice Problems ({done}/{total}, {round(done/total*100)}% done)")
+    print("Name|PDF|My Solution|Stars")
+    print("---|---|---|---")
+    print(lines.strip())
 
 
 def download():
