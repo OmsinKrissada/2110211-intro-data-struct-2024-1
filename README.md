@@ -10,6 +10,10 @@ Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](s
 ## Practice Problems
 Name|PDF|My Solution|Stars
 ---|---|---|---
+Booking|[d66_q1a_booking.pdf](pdfs/d66_q1a_booking.pdf)|not done yet|-
+Top Sale|[d66_q1a_topsale.pdf](pdfs/d66_q1a_topsale.pdf)|not done yet|-
+Restaurant|[ex00m1.pdf](pdfs/ex00m1.pdf)|not done yet|★★
+Auction|[ex00m2.pdf](pdfs/ex00m2.pdf)|not done yet|★☆
 3: Cross 2D|[d65_q1b_cross_2d.pdf](pdfs/d65_q1b_cross_2d.pdf)|not done yet|★★
 4: Sparse Vector|[d65_q1b_sparse_vector.pdf](pdfs/d65_q1b_sparse_vector.pdf)|not done yet|★★☆
 Ice Cream|[d65_q1c_ice_cream.pdf](pdfs/d65_q1c_ice_cream.pdf)|not done yet|★★
