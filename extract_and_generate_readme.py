@@ -108,6 +108,7 @@ def download():
             first = False
             # this is specific to my setup
             os.system("open -a Arc arc://settings/content/pdfDocuments")
+            input()
         target_url = (
             f"https://grader.nattee.net/problems/{t['id']}/get_statement/{filename}"
         )
