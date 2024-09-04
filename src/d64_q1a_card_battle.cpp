@@ -1,6 +1,5 @@
 #include <algorithm>
 #include <iostream>
-#include <map>
 using namespace std;
 
 int main() {
@@ -9,14 +8,12 @@ int main() {
 
     int n, m;
     cin >> n >> m;
-    map<int, int> deck;
-    for (int i = 0; i < n; i++) {
-        int input;
-        cin >> input;
-        deck.insert(make_pair(input, i));
+    int deck[n];
+    bool deck_flag[n] = {false};  // true = used
+    for (auto& e : deck) {
+        cin >> e;
     }
-    // sort(deck.begin(), deck.end());
-    // deck.sort();
+    sort(deck, deck + n);
 
     for (int i = 0; i < m; i++) {  // round
         int n_card;
@@ -24,15 +21,18 @@ int main() {
         for (int j = 0; j < n_card; j++) {
             int card;
             cin >> card;
-            map<int, int>::iterator selected_pos = upper_bound(deck.begin(), deck.end(), card);
+            int selected_pos = upper_bound(deck, deck + n, card) - deck;
+            while (selected_pos < n && deck_flag[selected_pos]) {
+                selected_pos++;
+            }
 
             // check game conditions
-            if (deck.size() == 0 || selected_pos == deck.end()) {
+            if (selected_pos == n) {
                 cout << i + 1;
                 return 0;
             }
 
-            deck.erase(selected_pos);
+            deck_flag[selected_pos] = true;
         }
     }
     cout << m + 1;
