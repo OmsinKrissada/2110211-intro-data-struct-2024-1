@@ -1,10 +1,10 @@
 #include <algorithm>
 #include <iostream>
+#include <queue>
 #include <vector>
 using namespace std;
 
-// on sorted vector
-int median(const vector<int> &v) {
+inline int median(const vector<int> &v) {
     int size = v.size();
     return size % 2 != 0 ? *(v.begin() + size / 2) : (*(v.begin() + size / 2) + *(v.begin() + size / 2 + 1)) / 2;
 }
@@ -16,19 +16,24 @@ int main() {
     int n, w;
     cin >> n >> w;
 
-    // intentionally store as vector<int> before processing, to replicate actual expected execution time in the original task present in Midterm '64
-    vector<int> v(n);
-    for (int i = 0; i < n; i++) {
-        cin >> v[i];
+    vector<int> frame(w + 1);
+    queue<int> ordered_frame;
+    for (int i = 0; i <= w; i++) {
+        int in;
+        cin >> in;
+        frame[i] = in;
+        ordered_frame.push(in);
     }
-
-    vector<int> frame(v.begin(), v.begin() + w + 1);
     sort(frame.begin(), frame.end());
     cout << median(frame) << ' ';
 
-    for (int i = 1; i < n - w; i++) {
-        frame.erase(lower_bound(frame.begin(), frame.end(), v[i - 1]));
-        frame.insert(lower_bound(frame.begin(), frame.end(), v[i + w]), v[i + w]);
+    for (int i = 0; i < n - w - 1; i++) {
+        int current;
+        cin >> current;
+        ordered_frame.push(current);
+        frame.erase(lower_bound(frame.begin(), frame.end(), ordered_frame.front()));
+        frame.insert(lower_bound(frame.begin(), frame.end(), current), current);
+        ordered_frame.pop();
         cout << median(frame) << ' ';
     }
 }
