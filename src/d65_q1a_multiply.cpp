@@ -13,8 +13,7 @@ void member_multiply(vector<int>& v,
 
     for (auto& pair : idx_multiply) {
         int val = *(v.begin() + pair.first);
-        vector<int> temp(pair.second, val);
-        v.insert(v.begin() + pair.first, temp.begin(), temp.end());
+        v.insert(v.begin() + pair.first, pair.second, val);
     }
 }
 
