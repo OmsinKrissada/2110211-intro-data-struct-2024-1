@@ -10,9 +10,9 @@ Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](s
 ## Practice Problems (29/41, 71% done)
 Name|PDF|My Solution|Stars
 ---|---|---|---
-Pair GTE|[d63_q2a_pair_gte.pdf](pdfs/d63_q2a_pair_gte.pdf)|not done yet|-
-Booking|[d66_q1a_booking.pdf](pdfs/d66_q1a_booking.pdf)|not done yet|-
-Top Sale|[d66_q1a_topsale.pdf](pdfs/d66_q1a_topsale.pdf)|not done yet|-
+Pair GTE|[d63_q2a_pair_gte.pdf](pdfs/d63_q2a_pair_gte.pdf)|not done yet|★
+Booking|[d66_q1a_booking.pdf](pdfs/d66_q1a_booking.pdf)|not done yet|★★
+Top Sale|[d66_q1a_topsale.pdf](pdfs/d66_q1a_topsale.pdf)|not done yet|★★☆
 Restaurant|[ex00m1.pdf](pdfs/ex00m1.pdf)|not done yet|★★
 Auction|[ex00m2.pdf](pdfs/ex00m2.pdf)|not done yet|★☆
 3: Cross 2D|[d65_q1b_cross_2d.pdf](pdfs/d65_q1b_cross_2d.pdf)|not done yet|★★
