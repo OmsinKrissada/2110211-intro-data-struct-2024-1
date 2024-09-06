@@ -28,8 +28,7 @@ int main() {
 
     for (int i = 1; i < n - w; i++) {
         frame.erase(lower_bound(frame.begin(), frame.end(), v[i - 1]));
-        frame.push_back(v[i + w]);
-        sort(frame.begin(), frame.end());
+        frame.insert(lower_bound(frame.begin(), frame.end(), v[i + w]), v[i + w]);
         cout << median(frame) << ' ';
     }
 }
