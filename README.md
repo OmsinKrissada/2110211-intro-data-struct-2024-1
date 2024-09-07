@@ -7,7 +7,7 @@ Name|PDF|My Solution|Stars
 ---|---|---|---
 Multi Insert|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|[Solution](src/d63_q1a_multi_insert.cpp)|★☆
 Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](src/d67_q0a_shoe_sizing.cpp)|★☆
-## Practice Problems (29/41, 71% done)
+## Practice Problems (30/41, 73% done)
 Name|PDF|My Solution|Stars
 ---|---|---|---
 Pair GTE|[d63_q2a_pair_gte.pdf](pdfs/d63_q2a_pair_gte.pdf)|not done yet|★
@@ -32,7 +32,7 @@ Card Battle|[d64_q1a_card_battle.pdf](pdfs/d64_q1a_card_battle.pdf)|[Solution](s
 Member Multiply|[d65_q1a_multiply.pdf](pdfs/d65_q1a_multiply.pdf)|[Solution](src/d65_q1a_multiply.cpp)|★☆
 Vector to Map|[d60_q0_v2m.pdf](pdfs/d60_q0_v2m.pdf)|[Solution](src/d60_q0_v2m.cpp)|★
 Hiatus|[d63_q1a_hiatus.pdf](pdfs/d63_q1a_hiatus.pdf)|not done yet|★★☆
-Inside Interval|[d63_qx_inside_interval.pdf](pdfs/d63_qx_inside_interval.pdf)|not done yet|★★
+Inside Interval|[d63_qx_inside_interval.pdf](pdfs/d63_qx_inside_interval.pdf)|[Solution](src/d63_qx_inside_interval.cpp)|★★
 Histogram|[d57_q0_histogram.pdf](pdfs/d57_q0_histogram.pdf)|[Solution](src/d57_q0_histogram.cpp)|★
 Interval Count|[d63_q1b_interval_count.pdf](pdfs/d63_q1b_interval_count.pdf)|[Solution](src/d63_q1b_interval_count.cpp)|★☆
 Check Mapping|[ex00e3.pdf](pdfs/ex00e3.pdf)|[Solution](src/ex00e3.cpp)|★
