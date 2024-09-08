@@ -55,13 +55,13 @@ def draw_task_col(t):
         "|".join(
             [
                 f'{t["pretty_name"]}',
-                f'[{t["name"]}.pdf](pdfs/{t["name"]}.pdf)',
-                (f"[Solution]({t["src"]})" if t["src"] else "not done yet"),
                 (
                     (int(t["stars"]) * "★" + int(t["stars"] % 1 * 2) * "☆")
                     if t["stars"]
                     else "-"
                 ),
+                f'[{t["name"]}.pdf](pdfs/{t["name"]}.pdf)',
+                (f"[Solution]({t["src"]})" if t["src"] else "not done yet"),
                 remarks[t["name"]] if t["name"] in remarks else ''
             ]
         ),
@@ -73,11 +73,13 @@ def generateMarkdown():
     print(">My solutions shown here received full score unless explicitly stated otherwise.")
     print("\n## Quizes")
 
+    header = "Name|Stars|PDF|My Solution|Remarks\n"
+    header+="---|---|---|---|---"
+
     # Quiz Tables
     for quiz_name, task_names in quizes.items():
         print(f"### {quiz_name}")
-        print("Name|PDF|My Solution|Stars|Remarks")
-        print("---|---|---|---|---")
+        print(header)
         for tn in task_names:
             quiz_names.add(tn)
             t = [x for x in tasks if x["name"] == tn][0]
@@ -97,8 +99,7 @@ def generateMarkdown():
 
 
     print(f"## Practice Problems ({done}/{total}, {round(done/total*100)}% done)")
-    print("Name|PDF|My Solution|Stars|Remarks")
-    print("---|---|---|---|---")
+    print(header)
     print(lines.strip())
 
 
