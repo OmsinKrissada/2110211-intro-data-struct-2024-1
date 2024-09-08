@@ -7,14 +7,14 @@ Name|PDF|My Solution|Stars
 ---|---|---|---
 Multi Insert|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|[Solution](src/d63_q1a_multi_insert.cpp)|★☆
 Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](src/d67_q0a_shoe_sizing.cpp)|★☆
-## Practice Problems (34/41, 83% done)
+## Practice Problems (35/41, 85% done)
 Name|PDF|My Solution|Stars
 ---|---|---|---
 Pair GTE|[d63_q2a_pair_gte.pdf](pdfs/d63_q2a_pair_gte.pdf)|not done yet|★
 Booking|[d66_q1a_booking.pdf](pdfs/d66_q1a_booking.pdf)|not done yet|★★
 Top Sale|[d66_q1a_topsale.pdf](pdfs/d66_q1a_topsale.pdf)|not done yet|★★☆
 Restaurant|[ex00m1.pdf](pdfs/ex00m1.pdf)|not done yet|★★
-Auction|[ex00m2.pdf](pdfs/ex00m2.pdf)|not done yet|★☆
+Auction|[ex00m2.pdf](pdfs/ex00m2.pdf)|[Solution](src/ex00m2.cpp)|★☆
 3: Cross 2D|[d65_q1b_cross_2d.pdf](pdfs/d65_q1b_cross_2d.pdf)|not done yet|★★
 4: Sparse Vector|[d65_q1b_sparse_vector.pdf](pdfs/d65_q1b_sparse_vector.pdf)|not done yet|★★☆
 Ice Cream|[d65_q1c_ice_cream.pdf](pdfs/d65_q1c_ice_cream.pdf)|[Solution](src/d65_q1c_ice_cream.cpp)|★★
