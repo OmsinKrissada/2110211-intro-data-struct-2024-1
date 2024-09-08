@@ -8,6 +8,11 @@ import random
 quizes = {
     "Quiz 0 (sample quiz, no score)": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
 }
+
+remarks={
+    'ex00m1':'PPxPPPPPPP'
+}
+
 quiz_names = set()
 
 with open("./scraped.html", encoding="utf8") as f:
@@ -57,6 +62,7 @@ def draw_task_col(t):
                     if t["stars"]
                     else "-"
                 ),
+                remarks[t["name"]] if t["name"] in remarks else ''
             ]
         ),
     )
@@ -64,14 +70,14 @@ def draw_task_col(t):
 
 def generateMarkdown():
     print(">[!NOTE]")
-    print(">Only solutions that receive full score are included in this repository.")
+    print(">My solutions shown here received full score unless explicitly stated otherwise.")
     print("\n## Quizes")
 
     # Quiz Tables
     for quiz_name, task_names in quizes.items():
         print(f"### {quiz_name}")
-        print("Name|PDF|My Solution|Stars")
-        print("---|---|---|---")
+        print("Name|PDF|My Solution|Stars|Remarks")
+        print("---|---|---|---|---")
         for tn in task_names:
             quiz_names.add(tn)
             t = [x for x in tasks if x["name"] == tn][0]
@@ -91,8 +97,8 @@ def generateMarkdown():
 
 
     print(f"## Practice Problems ({done}/{total}, {round(done/total*100)}% done)")
-    print("Name|PDF|My Solution|Stars")
-    print("---|---|---|---")
+    print("Name|PDF|My Solution|Stars|Remarks")
+    print("---|---|---|---|---")
     print(lines.strip())
 
 
