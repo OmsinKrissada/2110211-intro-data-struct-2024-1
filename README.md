@@ -7,7 +7,7 @@ Name|PDF|My Solution|Stars
 ---|---|---|---
 Multi Insert|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|[Solution](src/d63_q1a_multi_insert.cpp)|★☆
 Shoe Sizing|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](src/d67_q0a_shoe_sizing.cpp)|★☆
-## Practice Problems (31/41, 76% done)
+## Practice Problems (32/41, 78% done)
 Name|PDF|My Solution|Stars
 ---|---|---|---
 Pair GTE|[d63_q2a_pair_gte.pdf](pdfs/d63_q2a_pair_gte.pdf)|not done yet|★
@@ -19,7 +19,7 @@ Auction|[ex00m2.pdf](pdfs/ex00m2.pdf)|not done yet|★☆
 4: Sparse Vector|[d65_q1b_sparse_vector.pdf](pdfs/d65_q1b_sparse_vector.pdf)|not done yet|★★☆
 Ice Cream|[d65_q1c_ice_cream.pdf](pdfs/d65_q1c_ice_cream.pdf)|not done yet|★★
 Min of Max|[d65_q1c_min_of_max.pdf](pdfs/d65_q1c_min_of_max.pdf)|not done yet|★★☆
-Zipcode|[d60_q0_zipcode.pdf](pdfs/d60_q0_zipcode.pdf)|not done yet|★☆
+Zipcode|[d60_q0_zipcode.pdf](pdfs/d60_q0_zipcode.pdf)|[Solution](src/d60_q0_zipcode.cpp)|★☆
 Queue Count|[d62_q1b_queue_count.pdf](pdfs/d62_q1b_queue_count.pdf)|[Solution](src/d62_q1b_queue_count.cpp)|★☆
 Food Delivery|[d65_q1a_delivery.pdf](pdfs/d65_q1a_delivery.pdf)|[Solution](src/d65_q1a_delivery.cpp)|★★★
 Evaluate Postfix|[d57_q1_postfix.pdf](pdfs/d57_q1_postfix.pdf)|[Solution](src/d57_q1_postfix)|★★
