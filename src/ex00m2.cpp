@@ -67,3 +67,65 @@ int main() {
         cout << '\n';
     }
 }
+
+// use vector in place of map to get slightly better mem usage lol
+// really, really not necessary :shrug: it's already bad at mem usage cuz it's full of b-tree internally xd
+
+/*
+#include <algorithm>
+#include <iostream>
+#include <map>
+#include <vector>
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+
+    int n_item, n_user, n_action;
+    cin >> n_item >> n_user >> n_action;
+
+    vector<int> amount(n_item);          // item: amount
+    vector<map<int, int>> bids(n_item);  // item: {user: bid price,...}
+
+    for (int i = 0; i < n_item; i++) {
+        cin >> amount[i];
+    }
+
+    for (int i = 0; i < n_action; i++) {
+        char action;
+        int user, item;
+        cin >> action >> user >> item;
+        if (action == 'B') {
+            int price;
+            cin >> price;
+            bids[item - 1][user] = price;
+        } else if (action == 'W') {
+            if (bids[item - 1].count(user)) {
+                bids[item - 1].erase(user);
+            }
+        }
+    }
+
+    map<int, vector<int>> won;  // user: [items...]
+    for (int i = 0; i < bids.size(); i++) {
+        if (bids[i].size() == 0) continue;
+        vector<pair<int, int>> positions(bids[i].begin(), bids[i].end());
+        sort(positions.begin(), positions.end(), [](pair<int, int> a, pair<int, int> b) { return a.second > b.second || a.second == b.second && a.first > b.first; });
+        for (int c = 0; c < amount[i] && c < bids[i].size(); c++) {
+            auto& pos = positions[c];
+            won[pos.first].push_back(i + 1);
+        }
+    }
+
+    for (int i = 1; i <= n_user; i++) {
+        auto& items = won[i];
+        if (items.size() == 0) {
+            cout << "NONE\n";
+            continue;
+        }
+        for (auto& e : items) cout << e << ' ';
+        cout << '\n';
+    }
+}
+*/
