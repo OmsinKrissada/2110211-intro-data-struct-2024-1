@@ -6,7 +6,7 @@
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Multi Insert|★☆|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|[Solution](src/d63_q1a_multi_insert.cpp)|
-Shoe Sizing|★☆|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](src/d67_q0a_shoe_sizing.cpp)|
+Shoe Sizing|★☆|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](src/d67_q0a_shoe_sizing.cpp)|manual "binary search" instead of `lower_bound`
 ## Practice Problems (36/41, 88% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
@@ -25,7 +25,7 @@ Food Delivery|★★★|[d65_q1a_delivery.pdf](pdfs/d65_q1a_delivery.pdf)|[Solut
 Evaluate Postfix|★★|[d57_q1_postfix.pdf](pdfs/d57_q1_postfix.pdf)|[Solution](src/d57_q1_postfix)|
 Stack Concatenate|★☆|[d59_q0_stack_concat.pdf](pdfs/d59_q0_stack_concat.pdf)|[Solution](src/d59_q0_stack_concat.cpp)|
 Second Min|★☆|[d64_q1a_second_min.pdf](pdfs/d64_q1a_second_min.pdf)|[Solution](src/d64_q1a_second_min.cpp)|
-Moving Median|★★★☆|[d64_q1b_moving_median.pdf](pdfs/d64_q1b_moving_median.pdf)|[Solution](src/d64_q1b_moving_median.cpp)|
+Moving Median|★★★☆|[d64_q1b_moving_median.pdf](pdfs/d64_q1b_moving_median.pdf)|[Solution](src/d64_q1b_moving_median.cpp)|doesn't use `multiset`
 Password|★☆|[d64_q1b_password.pdf](pdfs/d64_q1b_password.pdf)|[Solution](src/d64_q1b_password.cpp)|
 Vector List Erase|★★|[d63_q1b_list_erase.pdf](pdfs/d63_q1b_list_erase.pdf)|[Solution](src/d63_q1b_list_erase.cpp)|
 Card Battle|★★|[d64_q1a_card_battle.pdf](pdfs/d64_q1a_card_battle.pdf)|[Solution](src/d64_q1a_card_battle.cpp)|

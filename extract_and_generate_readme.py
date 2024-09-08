@@ -9,8 +9,10 @@ quizes = {
     "Quiz 0 (sample quiz, no score)": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
 }
 
-remarks={
-    'ex00m1':'PPxPPPPPPP'
+remarks = {
+    "d67_q0a_shoe_sizing": 'manual "binary search" instead of `lower_bound`',
+    "d64_q1b_moving_median": "doesn't use `multiset`",
+    "ex00m1": "PPxPPPPPPP",
 }
 
 quiz_names = set()
@@ -25,6 +27,8 @@ ids = re.findall("/problems/(.*)/get_statement/(.+).pdf", data)
 src_root = "src/"
 existing_files = os.listdir(src_root)
 existing_subdirs = [x[0] for x in os.walk(src_root)]
+
+
 def get_src(name):
     src = ""
     if name + ".cpp" in existing_files:
@@ -42,7 +46,7 @@ tasks = [
         "name": a[1].strip(),
         "pretty_name": b[0].strip(),
         "stars": b[1].count("star") - b[1].count("star_half") * 0.5,
-        "src":get_src(a[1].strip())
+        "src": get_src(a[1].strip()),
     }
     for a, b in zip(ids, titles)
     if not a[1].strip().startswith("diglab")
@@ -61,8 +65,8 @@ def draw_task_col(t):
                     else "-"
                 ),
                 f'[{t["name"]}.pdf](pdfs/{t["name"]}.pdf)',
-                (f"[Solution]({t["src"]})" if t["src"] else "not done yet"),
-                remarks[t["name"]] if t["name"] in remarks else ''
+                (f'[Solution]({t["src"]})' if t["src"] else "not done yet"),
+                remarks[t["name"]] if t["name"] in remarks else "",
             ]
         ),
     )
@@ -70,11 +74,13 @@ def draw_task_col(t):
 
 def generateMarkdown():
     print(">[!NOTE]")
-    print(">My solutions shown here received full score unless explicitly stated otherwise.")
+    print(
+        ">My solutions shown here received full score unless explicitly stated otherwise."
+    )
     print("\n## Quizes")
 
     header = "Name|Stars|PDF|My Solution|Remarks\n"
-    header+="---|---|---|---|---"
+    header += "---|---|---|---|---"
 
     # Quiz Tables
     for quiz_name, task_names in quizes.items():
@@ -86,7 +92,7 @@ def generateMarkdown():
             print(draw_task_col(t))
 
     # Practice Problems
-    lines = ''
+    lines = ""
     done = 0
     total = 0
     for t in tasks:
@@ -95,8 +101,7 @@ def generateMarkdown():
         total += 1
         if t["src"]:
             done += 1
-        lines += draw_task_col(t) + '\n'
-
+        lines += draw_task_col(t) + "\n"
 
     print(f"## Practice Problems ({done}/{total}, {round(done/total*100)}% done)")
     print(header)
