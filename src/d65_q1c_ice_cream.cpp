@@ -10,7 +10,7 @@ int main() {
 
     int n, m, start;
     cin >> n >> m >> start;
-    // TODO: try using map inside of vector of pairs
+    // TODO: try using map instead of vector of pairs
     vector<pair<int, int>> change(n);  // (day, new amount)
     for (int i = 0; i < n; i++) cin >> change[i].first >> change[i].second;
     change.push_back(make_pair(0, start));
