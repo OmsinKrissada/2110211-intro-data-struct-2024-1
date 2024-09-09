@@ -7,17 +7,19 @@ import random
 
 quizes = {
     "Quiz 0 (sample quiz, no score)": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
+    "Quiz 1": ["d67_q1a_cpu_reservation", "d67_q1a_sort_position"],
 }
 
 remarks = {
     "d67_q0a_shoe_sizing": 'manual "binary search" instead of `lower_bound`',
     "d64_q1b_moving_median": "doesn't use `multiset`",
     "ex00m1": "PPxPPPPPPP",
+    "d67_q1a_cpu_reservation": "PPPPPPPPPPTTTTTTTTTT",
 }
 
 quiz_names = set()
 
-with open("./scraped.html", encoding="utf8") as f:
+with open("./page.html", encoding="utf8") as f:
     data = f.read()
 data = data.replace("&ZeroWidthSpace;", "")
 titles = re.findall(r"<strong>\n(.+)\n<span(.*)</span>\n</strong>", data)
