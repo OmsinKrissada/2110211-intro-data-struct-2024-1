@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-    // ios_base::sync_with_stdio(false);
-    // cin.tie(0);
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
 
     int n;
     cin >> n;
@@ -18,13 +18,24 @@ int main() {
     for (int i = 2; i <= n; i++) {
         int start, stop;
         cin >> start >> stop;
-        auto match = lower_bound(orders.begin(), orders.end(), start, [](pair<int, int> l, int r) { return l.second < r; });
         // auto high = low->second;
 
-        if (match == orders.end() || match->second < start || match->first > stop) {
+        if (start > orders[orders.size() - 1].second) {
             cout << i << ' ';
             orders.push_back(make_pair(start, stop));
-            if (match != orders.end()) sort(orders.begin(), orders.end());
+            continue;
+        }
+
+        if (stop < orders[0].first) {
+            cout << i << ' ';
+            orders.insert(orders.begin(), make_pair(start, stop));
+            continue;
+        }
+
+        auto match = lower_bound(orders.begin(), orders.end(), start, [](pair<int, int> l, int r) { return l.second < r; });
+        if (match == orders.end() || match->second < start || match->first > stop) {
+            cout << i << ' ';
+            orders.emplace(match, make_pair(start, stop));
         }
     }
 }
