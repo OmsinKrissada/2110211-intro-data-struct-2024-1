@@ -12,9 +12,29 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|PPPPPPPPPPPPTTPPPPPP
 Sort Position|-|[d67_q1a_sort_position.pdf](pdfs/d67_q1a_sort_position.pdf)|[Solution](src/d67_q1a_sort_position.cpp)|
-## Practice Problems (36/41, 88% done)
+## Practice Problems (36/61, 59% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
+Pop Many|★☆|[d59_q1_pop_many.pdf](pdfs/d59_q1_pop_many.pdf)|not done yet|
+Stack Deep Push|★☆|[d62_q2b_stack_deep_push.pdf](pdfs/d62_q2b_stack_deep_push.pdf)|not done yet|
+Stack Reserve Compare|★|[d63_q2b_stack_reserve.pdf](pdfs/d63_q2b_stack_reserve.pdf)|not done yet|
+2: Vector No Move|★★☆|[d65_q2a_no_move.pdf](pdfs/d65_q2a_no_move.pdf)|not done yet|
+Vector Some Move|★★★★☆|[d65_q2b_some_move.pdf](pdfs/d65_q2b_some_move.pdf)|not done yet|
+Insert Many|★★|[d62_q2b_vector_insert_many.pdf](pdfs/d62_q2b_vector_insert_many.pdf)|not done yet|
+Swap Vector|★★|[d62_q2c_vector_swap.pdf](pdfs/d62_q2c_vector_swap.pdf)|not done yet|
+Vector Rotate|★★|[d64_q2b_vector_rotate.pdf](pdfs/d64_q2b_vector_rotate.pdf)|not done yet|
+Range Insert|★★|[d59_q1_range_insert.pdf](pdfs/d59_q1_range_insert.pdf)|not done yet|
+Vector Block Swap|★☆|[d64_q2a_vector_block_swap.pdf](pdfs/d64_q2a_vector_block_swap.pdf)|not done yet|
+Vector less|★☆|[d64_q2c_vector_less.pdf](pdfs/d64_q2c_vector_less.pdf)|not done yet|
+Erase Many from Vector|★★|[d58_q1_erase_many.pdf](pdfs/d58_q1_erase_many.pdf)|not done yet|
+Vector Unique|★☆|[d60_q1_v_uniq.pdf](pdfs/d60_q1_v_uniq.pdf)|not done yet|
+Ordered Set|★☆|[d61_q1_ordered_set.pdf](pdfs/d61_q1_ordered_set.pdf)|not done yet|
+Iterator Check|★|[d62_q2a_iterator_check.pdf](pdfs/d62_q2a_iterator_check.pdf)|not done yet|
+Wasted Space|★|[d62_q2c_wasted_space.pdf](pdfs/d62_q2c_wasted_space.pdf)|not done yet|
+Vector Mirror|★☆|[d63_q2a_vector_mirror.pdf](pdfs/d63_q2a_vector_mirror.pdf)|not done yet|
+Vector Equality|★|[d57_q1_vequal.pdf](pdfs/d57_q1_vequal.pdf)|not done yet|
+Vector Compress|★|[d63_q2b_vector_compress.pdf](pdfs/d63_q2b_vector_compress.pdf)|not done yet|
+Is Reverse?|★|[ds02_is_reverse.pdf](pdfs/ds02_is_reverse.pdf)|not done yet|
 Pair GTE|★|[d63_q2a_pair_gte.pdf](pdfs/d63_q2a_pair_gte.pdf)|not done yet|
 Booking|★★|[d66_q1a_booking.pdf](pdfs/d66_q1a_booking.pdf)|not done yet|
 Top Sale|★★☆|[d66_q1a_topsale.pdf](pdfs/d66_q1a_topsale.pdf)|not done yet|
