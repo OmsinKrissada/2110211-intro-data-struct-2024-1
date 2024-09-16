@@ -12,9 +12,12 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|PPPPPPPPPPPPTTPPPPPP
 Sort Position|-|[d67_q1a_sort_position.pdf](pdfs/d67_q1a_sort_position.pdf)|[Solution](src/d67_q1a_sort_position.cpp)|
-## Practice Problems (36/61, 59% done)
+## Practice Problems (36/64, 56% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
+Stack by Vector|★☆|[d57_q1_sbv.pdf](pdfs/d57_q1_sbv.pdf)|not done yet|
+Stack by Vector 2|★☆|[d57_q1_sbv2.pdf](pdfs/d57_q1_sbv2.pdf)|not done yet|
+Stack Distribute|★★|[d64_q2b_stack_distribute.pdf](pdfs/d64_q2b_stack_distribute.pdf)|not done yet|
 Pop Many|★☆|[d59_q1_pop_many.pdf](pdfs/d59_q1_pop_many.pdf)|not done yet|
 Stack Deep Push|★☆|[d62_q2b_stack_deep_push.pdf](pdfs/d62_q2b_stack_deep_push.pdf)|not done yet|
 Stack Reserve Compare|★|[d63_q2b_stack_reserve.pdf](pdfs/d63_q2b_stack_reserve.pdf)|not done yet|
