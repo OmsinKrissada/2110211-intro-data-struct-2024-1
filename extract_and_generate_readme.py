@@ -7,7 +7,7 @@ import random
 
 quizes = {
     "Quiz 0 (sample quiz, no score)": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
-    "Quiz 1": ["d67_q1a_cpu_reservation", "d67_q1a_sort_position"],
+    "Quiz 1 (Usage of STL)": ["d67_q1a_cpu_reservation", "d67_q1a_sort_position"],
 }
 
 remarks = {

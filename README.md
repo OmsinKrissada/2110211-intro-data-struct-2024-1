@@ -7,7 +7,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Multi Insert|★☆|[d63_q1a_multi_insert.pdf](pdfs/d63_q1a_multi_insert.pdf)|[Solution](src/d63_q1a_multi_insert.cpp)|
 Shoe Sizing|★☆|[d67_q0a_shoe_sizing.pdf](pdfs/d67_q0a_shoe_sizing.pdf)|[Solution](src/d67_q0a_shoe_sizing.cpp)|manual "binary search" instead of `lower_bound`
-### Quiz 1
+### Quiz 1 (Usage of STL)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|PPPPPPPPPPPPTTPPPPPP
