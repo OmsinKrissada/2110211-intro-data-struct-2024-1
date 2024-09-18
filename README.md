@@ -12,10 +12,10 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|PPPPPPPPPPPPTTPPPPPP
 Sort Position|-|[d67_q1a_sort_position.pdf](pdfs/d67_q1a_sort_position.pdf)|[Solution](src/d67_q1a_sort_position.cpp)|
-## Practice Problems (36/71, 51% done)
+## Practice Problems (37/71, 52% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
-Queue At|★|[d60_q1_qat.pdf](pdfs/d60_q1_qat.pdf)|not done yet|
+Queue At|★|[d60_q1_qat.pdf](pdfs/d60_q1_qat.pdf)|[Solution](src/d60_q1_qat)|circular queue intro
 Append|★☆|[d61_q1_append.pdf](pdfs/d61_q1_append.pdf)|not done yet|
 Queue Min Element|★☆|[d65_q3a_queue_min.pdf](pdfs/d65_q3a_queue_min.pdf)|not done yet|
 Stack From Set|★★|[d64_q2a_stack_from_set.pdf](pdfs/d64_q2a_stack_from_set.pdf)|not done yet|

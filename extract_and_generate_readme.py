@@ -15,6 +15,7 @@ remarks = {
     "d64_q1b_moving_median": "doesn't use `multiset`",
     "ex00m1": "PPxPPPPPPP",
     "d67_q1a_cpu_reservation": "PPPPPPPPPPPPTTPPPPPP",
+    "d60_q1_qat": "circular queue intro",
 }
 
 quiz_names = set()
