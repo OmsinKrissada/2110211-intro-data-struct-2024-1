@@ -12,9 +12,22 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|PPPPPPPPPPPPTTPPPPPP
 Sort Position|-|[d67_q1a_sort_position.pdf](pdfs/d67_q1a_sort_position.pdf)|[Solution](src/d67_q1a_sort_position.cpp)|
-## Practice Problems (37/71, 52% done)
+## Practice Problems (37/84, 44% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
+Queue Vertical Split|★★|[d66_q3a_queue_vertical_split.pdf](pdfs/d66_q3a_queue_vertical_split.pdf)|not done yet|
+Queue Free Space|☆|[d66_q3b_queue_free.pdf](pdfs/d66_q3b_queue_free.pdf)|not done yet|
+Queue Remove Many|-|[da66_m1_queue_remove_many.pdf](pdfs/da66_m1_queue_remove_many.pdf)|not done yet|
+Queue to Vector|★☆|[d58_q1_to_vector.pdf](pdfs/d58_q1_to_vector.pdf)|not done yet|
+Queue Check|★★☆|[d64_q3a_queue_check.pdf](pdfs/d64_q3a_queue_check.pdf)|not done yet|
+Queue Reverse|★★|[d64_q3b_queue_reverse.pdf](pdfs/d64_q3b_queue_reverse.pdf)|not done yet|
+Queue Total Reverse|★★☆|[d65_q3b_queue_total_reverse.pdf](pdfs/d65_q3b_queue_total_reverse.pdf)|not done yet|
+Queue Equality|★☆|[d59_q2_queue_equality.pdf](pdfs/d59_q2_queue_equality.pdf)|not done yet|
+Split Queue|★☆|[d60_q2_split_queue.pdf](pdfs/d60_q2_split_queue.pdf)|not done yet|
+Multi Count|★☆|[d62_q2a_multi_count.pdf](pdfs/d62_q2a_multi_count.pdf)|not done yet|
+Queue Move to Front|★☆|[d62_q3b_queue_m2f.pdf](pdfs/d62_q3b_queue_m2f.pdf)|not done yet|
+Queue Move to Back|★☆|[d63_q3a_queue_m2b.pdf](pdfs/d63_q3a_queue_m2b.pdf)|not done yet|
+Queue Back to Front|★☆|[d63_q3b_queue_b2f.pdf](pdfs/d63_q3b_queue_b2f.pdf)|not done yet|
 Queue At|★|[d60_q1_qat.pdf](pdfs/d60_q1_qat.pdf)|[Solution](src/d60_q1_qat)|circular queue intro
 Append|★☆|[d61_q1_append.pdf](pdfs/d61_q1_append.pdf)|not done yet|
 Queue Min Element|★☆|[d65_q3a_queue_min.pdf](pdfs/d65_q3a_queue_min.pdf)|not done yet|
