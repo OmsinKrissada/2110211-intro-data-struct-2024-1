@@ -25,3 +25,5 @@ page.html
 test.*
 *.out
 data/
+
+.DS_Store
