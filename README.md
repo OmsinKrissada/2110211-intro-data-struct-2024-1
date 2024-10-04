@@ -12,7 +12,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|PPPPPPPPPPPPTTPPPPPP
 Sort Position|-|[d67_q1a_sort_position.pdf](pdfs/d67_q1a_sort_position.pdf)|[Solution](src/d67_q1a_sort_position.cpp)|
-## Practice Problems (39/84, 46% done)
+## Practice Problems (41/84, 49% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Queue Vertical Split|★★|[d66_q3a_queue_vertical_split.pdf](pdfs/d66_q3a_queue_vertical_split.pdf)|not done yet|
@@ -47,9 +47,9 @@ Insert Many|★★|[d62_q2b_vector_insert_many.pdf](pdfs/d62_q2b_vector_insert_m
 Swap Vector|★★|[d62_q2c_vector_swap.pdf](pdfs/d62_q2c_vector_swap.pdf)|not done yet|
 Vector Rotate|★★|[d64_q2b_vector_rotate.pdf](pdfs/d64_q2b_vector_rotate.pdf)|not done yet|
 Range Insert|★★|[d59_q1_range_insert.pdf](pdfs/d59_q1_range_insert.pdf)|not done yet|
-Vector Block Swap|★☆|[d64_q2a_vector_block_swap.pdf](pdfs/d64_q2a_vector_block_swap.pdf)|not done yet|
+Vector Block Swap|★☆|[d64_q2a_vector_block_swap.pdf](pdfs/d64_q2a_vector_block_swap.pdf)|[Solution](src/d64_q2a_vector_block_swap)|
 Vector less|★☆|[d64_q2c_vector_less.pdf](pdfs/d64_q2c_vector_less.pdf)|not done yet|
-Erase Many from Vector|★★|[d58_q1_erase_many.pdf](pdfs/d58_q1_erase_many.pdf)|not done yet|
+Erase Many from Vector|★★|[d58_q1_erase_many.pdf](pdfs/d58_q1_erase_many.pdf)|[Solution](src/d58_q1_erase_many)|
 Vector Unique|★☆|[d60_q1_v_uniq.pdf](pdfs/d60_q1_v_uniq.pdf)|[Solution](src/d60_q1_v_uniq)|
 Ordered Set|★☆|[d61_q1_ordered_set.pdf](pdfs/d61_q1_ordered_set.pdf)|not done yet|
 Iterator Check|★|[d62_q2a_iterator_check.pdf](pdfs/d62_q2a_iterator_check.pdf)|[Solution](src/d62_q2a_iterator_check)|
