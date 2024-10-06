@@ -12,7 +12,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|PPPPPPPPPPPPTTPPPPPP
 Sort Position|-|[d67_q1a_sort_position.pdf](pdfs/d67_q1a_sort_position.pdf)|[Solution](src/d67_q1a_sort_position.cpp)|
-## Practice Problems (44/84, 52% done)
+## Practice Problems (45/84, 54% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Queue Vertical Split|★★|[d66_q3a_queue_vertical_split.pdf](pdfs/d66_q3a_queue_vertical_split.pdf)|not done yet|
@@ -33,7 +33,7 @@ Append|★☆|[d61_q1_append.pdf](pdfs/d61_q1_append.pdf)|not done yet|
 Queue Min Element|★☆|[d65_q3a_queue_min.pdf](pdfs/d65_q3a_queue_min.pdf)|not done yet|
 Stack From Set|★★|[d64_q2a_stack_from_set.pdf](pdfs/d64_q2a_stack_from_set.pdf)|not done yet|
 Move Insert Stack|★★|[d64_q2c_stack_move_insert.pdf](pdfs/d64_q2c_stack_move_insert.pdf)|not done yet|
-1: Stack Mitosis|★☆|[d65_q2a_mitosis.pdf](pdfs/d65_q2a_mitosis.pdf)|not done yet|
+1: Stack Mitosis|★☆|[d65_q2a_mitosis.pdf](pdfs/d65_q2a_mitosis.pdf)|[Solution](src/d65_q2a_mitosis)|
 Split Stack|★☆|[d65_q2b_split_stack.pdf](pdfs/d65_q2b_split_stack.pdf)|[Solution](src/d65_q2b_split_stack)|
 Stack by Vector|★☆|[d57_q1_sbv.pdf](pdfs/d57_q1_sbv.pdf)|not done yet|
 Stack by Vector 2|★☆|[d57_q1_sbv2.pdf](pdfs/d57_q1_sbv2.pdf)|not done yet|
