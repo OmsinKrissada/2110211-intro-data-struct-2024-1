@@ -94,7 +94,7 @@ def generateMarkdown():
 </video>
 """
     )
-    print(">[!NOTE]")
+    print(">[!IMPORTANT]")
     print(
         ">My solutions shown here received full score unless explicitly stated otherwise."
     )

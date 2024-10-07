@@ -3,7 +3,7 @@
 <video width="320" height="240" controls src="https://git.krissada.com/Omsin/2110211-intro-data-struct-2024-1/raw/branch/main/nattee-advice.mp4">
 </video>
 
->[!NOTE]
+>[!IMPORTANT]
 >My solutions shown here received full score unless explicitly stated otherwise.
 
 ## Quizes
