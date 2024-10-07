@@ -17,6 +17,12 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|PPPPPPPPPPPPTTPPPPPP
 Sort Position|-|[d67_q1a_sort_position.pdf](pdfs/d67_q1a_sort_position.pdf)|[Solution](src/d67_q1a_sort_position.cpp)|
+Wall Paint|-|[d67_q1b_wall_paint.pdf](pdfs/d67_q1b_wall_paint.pdf)|[Solution](src/d67_q1b_wall_paint.cpp)|20.0 [PPPP----TTTTTTTTTTTT]
+### Quiz 2 (Vector & Stack)
+Name|Stars|PDF|My Solution|Remarks
+---|---|---|---|---
+Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|60.0 [PPPPPPPPPPPPTTTTTTTT]
+Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
 ## Practice Problems (46/84, 55% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---

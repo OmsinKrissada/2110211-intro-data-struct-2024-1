@@ -7,7 +7,15 @@ import random
 
 quizes = {
     "Quiz 0 (sample quiz, no score)": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
-    "Quiz 1 (Usage of STL)": ["d67_q1a_cpu_reservation", "d67_q1a_sort_position"],
+    "Quiz 1 (Usage of STL)": [
+        "d67_q1a_cpu_reservation",
+        "d67_q1a_sort_position",
+        "d67_q1b_wall_paint",
+    ],
+    "Quiz 2 (Vector & Stack)": [
+        "d67_q2a_double_stack",
+        "d67_q2a_vector_multi_uniq",
+    ],
 }
 
 remarks = {
@@ -16,6 +24,8 @@ remarks = {
     "ex00m1": "PPxPPPPPPP",
     "d67_q1a_cpu_reservation": "PPPPPPPPPPPPTTPPPPPP",
     "d60_q1_qat": "circular queue intro",
+    "d67_q1b_wall_paint": "20.0 [PPPP----TTTTTTTTTTTT]",
+    "d67_q2a_double_stack": "60.0 [PPPPPPPPPPPPTTTTTTTT]",
 }
 
 quiz_names = set()
@@ -23,8 +33,9 @@ quiz_names = set()
 with open("./page.html", encoding="utf8") as f:
     data = f.read()
 data = data.replace("&ZeroWidthSpace;", "")
-titles = re.findall(r"<strong>\n(.+)\n<span(.*)</span>\n</strong>", data)
-ids = re.findall("/problems/(.*)/get_statement/(.+).pdf", data)
+title_star_list = re.findall(r"<strong>\n(.+)\n<span(.*)</span>\n</strong>", data)
+# id_name_list = re.findall("/problems/(.*)/get_statement/(.+).pdf", data)
+id_name_list = re.findall(r'<option value="(\d+)">\[(.+)\].+</option>', data)
 
 
 src_root = "src/"
@@ -51,7 +62,7 @@ tasks = [
         "stars": b[1].count("star") - b[1].count("star_half") * 0.5,
         "src": get_src(a[1].strip()),
     }
-    for a, b in zip(ids, titles)
+    for a, b in zip(id_name_list, title_star_list)
     if not a[1].strip().startswith("diglab")
 ]
 # tasks.sort(key=lambda x: int(x["id"]))
@@ -76,6 +87,13 @@ def draw_task_col(t):
 
 
 def generateMarkdown():
+    print(
+        """« [แชร์แล้วสอบผ่าน](https://www.instagram.com/reel/CzvAdBCJQl8/) »
+
+<video width="320" height="240" controls src="https://git.krissada.com/Omsin/2110211-intro-data-struct-2024-1/raw/branch/main/nattee-advice.mp4">
+</video>
+"""
+    )
     print(">[!NOTE]")
     print(
         ">My solutions shown here received full score unless explicitly stated otherwise."
