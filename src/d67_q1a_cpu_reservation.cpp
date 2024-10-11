@@ -1,6 +1,6 @@
 #include <algorithm>
 #include <iostream>
-#include <vector>
+#include <map>
 using namespace std;
 
 int main() {
@@ -10,32 +10,31 @@ int main() {
     int n;
     cin >> n;
 
-    vector<pair<int, int>> orders;  // [start, stop]
+    map<int, int> orders;  // [stop, start]
     int start, stop;
     cin >> start >> stop;
     cout << "1 ";
-    orders.push_back(make_pair(start, stop));
+    orders.emplace(stop, start);
     for (int i = 2; i <= n; i++) {
         int start, stop;
         cin >> start >> stop;
-        // auto high = low->second;
 
-        if (start > orders[orders.size() - 1].second) {
+        if (start > prev(orders.end())->first) {
             cout << i << ' ';
-            orders.push_back(make_pair(start, stop));
+            orders.emplace_hint(orders.end(), stop, start);
             continue;
         }
 
-        if (stop < orders[0].first) {
+        if (stop < orders.begin()->second) {
             cout << i << ' ';
-            orders.insert(orders.begin(), make_pair(start, stop));
+            orders.emplace_hint(orders.begin(), stop, start);
             continue;
         }
 
-        auto match = lower_bound(orders.begin(), orders.end(), start, [](pair<int, int> l, int r) { return l.second < r; });
-        if (match == orders.end() || match->second < start || match->first > stop) {
+        auto match = orders.lower_bound(start);
+        if (match == orders.end() || match->first < start || match->second > stop) {
             cout << i << ' ';
-            orders.emplace(match, make_pair(start, stop));
+            orders.emplace_hint(match, stop, start);
         }
     }
 }
