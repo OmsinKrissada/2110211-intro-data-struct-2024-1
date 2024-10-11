@@ -21,7 +21,7 @@ Wall Paint|-|[d67_q1b_wall_paint.pdf](pdfs/d67_q1b_wall_paint.pdf)|[Solution](sr
 ### Quiz 2 (Vector & Stack)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
-Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|60.0 [PPPPPPPPPPPPTTTTTTTT]
+Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
 ## Practice Problems (48/84, 57% done)
 Name|Stars|PDF|My Solution|Remarks

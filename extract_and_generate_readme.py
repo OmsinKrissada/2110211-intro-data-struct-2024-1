@@ -25,7 +25,7 @@ remarks = {
     "d67_q1a_cpu_reservation": "~~PPPPPPPPPPPPTTPPPPPP~~ full score now",
     "d60_q1_qat": "circular queue intro",
     "d67_q1b_wall_paint": "20.0 [PPPP----TTTTTTTTTTTT]",
-    "d67_q2a_double_stack": "60.0 [PPPPPPPPPPPPTTTTTTTT]",
+    "d67_q2a_double_stack": "~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now",
 }
 
 quiz_names = set()

@@ -5,9 +5,18 @@
 
 template <typename T>
 void migrate(std::stack<T>& from, std::stack<T>& to) {
+    std::stack<T> tmp;
+    for (size_t i = 0; i < from.size() / 2; i++) {
+        tmp.push(from.top());
+        from.pop();
+    }
     while (!from.empty()) {
         to.push(from.top());
         from.pop();
+    }
+    while (!tmp.empty()) {
+        from.push(tmp.top());
+        tmp.pop();
     }
 }
 
