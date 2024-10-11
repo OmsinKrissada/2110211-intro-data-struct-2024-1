@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|60.0 [PPPPPPPPPPPPTTTTTTTT]
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (46/84, 55% done)
+## Practice Problems (48/84, 57% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Queue Vertical Split|★★|[d66_q3a_queue_vertical_split.pdf](pdfs/d66_q3a_queue_vertical_split.pdf)|not done yet|
@@ -37,8 +37,8 @@ Queue Equality|★☆|[d59_q2_queue_equality.pdf](pdfs/d59_q2_queue_equality.pdf
 Split Queue|★☆|[d60_q2_split_queue.pdf](pdfs/d60_q2_split_queue.pdf)|not done yet|
 Multi Count|★☆|[d62_q2a_multi_count.pdf](pdfs/d62_q2a_multi_count.pdf)|not done yet|
 Queue Move to Front|★☆|[d62_q3b_queue_m2f.pdf](pdfs/d62_q3b_queue_m2f.pdf)|not done yet|
-Queue Move to Back|★☆|[d63_q3a_queue_m2b.pdf](pdfs/d63_q3a_queue_m2b.pdf)|not done yet|
-Queue Back to Front|★☆|[d63_q3b_queue_b2f.pdf](pdfs/d63_q3b_queue_b2f.pdf)|not done yet|
+Queue Move to Back|★☆|[d63_q3a_queue_m2b.pdf](pdfs/d63_q3a_queue_m2b.pdf)|[Solution](src/d63_q3a_queue_m2b)|
+Queue Back to Front|★☆|[d63_q3b_queue_b2f.pdf](pdfs/d63_q3b_queue_b2f.pdf)|[Solution](src/d63_q3b_queue_b2f)|
 Queue At|★|[d60_q1_qat.pdf](pdfs/d60_q1_qat.pdf)|[Solution](src/d60_q1_qat)|circular queue intro
 Append|★☆|[d61_q1_append.pdf](pdfs/d61_q1_append.pdf)|not done yet|
 Queue Min Element|★☆|[d65_q3a_queue_min.pdf](pdfs/d65_q3a_queue_min.pdf)|not done yet|
