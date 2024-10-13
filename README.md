@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (48/100, 48% done)
+## Practice Problems (49/100, 49% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Heap Change Value|★☆|[d63_q3b_heap_change.pdf](pdfs/d63_q3b_heap_change.pdf)|not done yet|
@@ -69,7 +69,7 @@ Pop Many|★☆|[d59_q1_pop_many.pdf](pdfs/d59_q1_pop_many.pdf)|not done yet|
 Stack Deep Push|★☆|[d62_q2b_stack_deep_push.pdf](pdfs/d62_q2b_stack_deep_push.pdf)|not done yet|
 Stack Reserve Compare|★|[d63_q2b_stack_reserve.pdf](pdfs/d63_q2b_stack_reserve.pdf)|not done yet|
 2: Vector No Move|★★☆|[d65_q2a_no_move.pdf](pdfs/d65_q2a_no_move.pdf)|[Solution](src/d65_q2a_no_move)|
-Vector Some Move|★★★★☆|[d65_q2b_some_move.pdf](pdfs/d65_q2b_some_move.pdf)|not done yet|
+Vector Some Move|★★★★☆|[d65_q2b_some_move.pdf](pdfs/d65_q2b_some_move.pdf)|[Solution](src/d65_q2b_some_move)|
 Insert Many|★★|[d62_q2b_vector_insert_many.pdf](pdfs/d62_q2b_vector_insert_many.pdf)|not done yet|
 Swap Vector|★★|[d62_q2c_vector_swap.pdf](pdfs/d62_q2c_vector_swap.pdf)|not done yet|
 Vector Rotate|★★|[d64_q2b_vector_rotate.pdf](pdfs/d64_q2b_vector_rotate.pdf)|not done yet|
