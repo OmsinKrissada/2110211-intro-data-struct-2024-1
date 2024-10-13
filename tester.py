@@ -4,6 +4,8 @@ import subprocess
 import time
 import shlex
 import argparse
+from os import path
+import sys
 
 input_filename = "data/in.txt"
 output_filename = "data/out.txt"
@@ -12,7 +14,17 @@ generated_output_filename = "data/actual.txt"
 
 def run_cpp_program(file_name):
     # Compile the C++ file
-    compile_command = f"g++-14 --std=c++17 src/{file_name}.cpp -o bin/{file_name}"
+    if path.isfile(f"src/{file_name}.cpp"):
+        src_file = f"src/{file_name}.cpp"
+        bin_file = f"./bin/{file_name}"
+    elif path.isdir(f"src/{file_name}"):
+        src_file = f"src/{file_name}/main.cpp"
+        bin_file = f"./bin/{file_name}"
+    else:
+        print(f"{file_name} does not exist", file=sys.stderr)
+        return
+
+    compile_command = f"g++-14 --std=c++17 -O2 {src_file} -o {bin_file}"
     compile_begin = time.time()
     compile_process = subprocess.run(shlex.split(compile_command))
     compile_end = time.time()
@@ -23,9 +35,7 @@ def run_cpp_program(file_name):
     # Execute the compiled program with input redirection
     # if os.stat(input_filename).st_size > 0:
     with open(input_filename, "r") as f:
-        process = subprocess.Popen(
-            f"./bin/{file_name}", stdin=f, stdout=subprocess.PIPE
-        )
+        process = subprocess.Popen(bin_file, stdin=f, stdout=subprocess.PIPE)
         run_begin = time.time()
         output, _ = process.communicate()
         run_end = time.time()
