@@ -32,7 +32,7 @@ int main() {
         }
 
         auto match = orders.lower_bound(start);
-        if (match == orders.end() || match->first < start || match->second > stop) {
+        if (match == orders.end() || match->first < start || match->second > stop) {  // note: match->first < start is redundant (bad)
             cout << i << ' ';
             orders.emplace_hint(match, stop, start);
         }
