@@ -55,7 +55,7 @@ Queue Total Reverse|★★☆|[d65_q3b_queue_total_reverse.pdf](pdfs/d65_q3b_que
 Queue Equality|★☆|[d59_q2_queue_equality.pdf](pdfs/d59_q2_queue_equality.pdf)|not done yet|
 Split Queue|★☆|[d60_q2_split_queue.pdf](pdfs/d60_q2_split_queue.pdf)|not done yet|
 Multi Count|★☆|[d62_q2a_multi_count.pdf](pdfs/d62_q2a_multi_count.pdf)|not done yet|
-Queue Move to Front|★☆|[d62_q3b_queue_m2f.pdf](pdfs/d62_q3b_queue_m2f.pdf)|[Solution](src/d62_q3b_queue_m2f)|
+Queue Move to Front|★☆|[d62_q3b_queue_m2f.pdf](pdfs/d62_q3b_queue_m2f.pdf)|[Solution](src/d62_q3b_queue_m2f)|test case ตัวอย่างใน PDF ผิด
 Queue Move to Back|★☆|[d63_q3a_queue_m2b.pdf](pdfs/d63_q3a_queue_m2b.pdf)|[Solution](src/d63_q3a_queue_m2b)|
 Queue Back to Front|★☆|[d63_q3b_queue_b2f.pdf](pdfs/d63_q3b_queue_b2f.pdf)|[Solution](src/d63_q3b_queue_b2f)|
 Queue At|★|[d60_q1_qat.pdf](pdfs/d60_q1_qat.pdf)|[Solution](src/d60_q1_qat)|circular queue intro

@@ -26,6 +26,7 @@ remarks = {
     "d60_q1_qat": "circular queue intro",
     "d67_q1b_wall_paint": "20.0 [PPPP----TTTTTTTTTTTT]",
     "d67_q2a_double_stack": "~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now",
+    'd62_q3b_queue_m2f':"test case ตัวอย่างใน PDF ผิด",
 }
 
 quiz_names = set()
