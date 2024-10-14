@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (53/103, 51% done)
+## Practice Problems (54/103, 52% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Heap Descendant|★★|[d62_q3a_heap_descendant.pdf](pdfs/d62_q3a_heap_descendant.pdf)|not done yet|
@@ -42,7 +42,7 @@ Rank in Heap|★|[d63_q3a_rank_in_heap.pdf](pdfs/d63_q3a_rank_in_heap.pdf)|not d
 Stack Vertical Split|★★|[d66_q2a_stack_vertical_split.pdf](pdfs/d66_q2a_stack_vertical_split.pdf)|not done yet|
 Vector Range Erase|★★☆|[d66_q2a_vector_range_erase.pdf](pdfs/d66_q2a_vector_range_erase.pdf)|not done yet|
 Vector Partial Sort|★☆|[d66_q2c_vector_partial_sort.pdf](pdfs/d66_q2c_vector_partial_sort.pdf)|not done yet|
-Dense Graph|-|[d57_q1_dense.pdf](pdfs/d57_q1_dense.pdf)|not done yet|
+Dense Graph|-|[d57_q1_dense.pdf](pdfs/d57_q1_dense.pdf)|[Solution](src/d57_q1_dense)|
 Sparse Graph|-|[d57_q1_sparse.pdf](pdfs/d57_q1_sparse.pdf)|[Solution](src/d57_q1_sparse)|
 Stack Reverse|★☆|[d66_q2b_stack_reverse.pdf](pdfs/d66_q2b_stack_reverse.pdf)|[Solution](src/d66_q2b_stack_reverse)|
 Queue Vertical Split|★★|[d66_q3a_queue_vertical_split.pdf](pdfs/d66_q3a_queue_vertical_split.pdf)|not done yet|
