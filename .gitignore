@@ -26,5 +26,6 @@ page.html
 test.*
 *.out
 data/
+trash/
 
 .DS_Store
