@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (49/100, 49% done)
+## Practice Problems (50/100, 50% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Heap Change Value|★☆|[d63_q3b_heap_change.pdf](pdfs/d63_q3b_heap_change.pdf)|not done yet|
@@ -41,7 +41,7 @@ Vector Range Erase|★★☆|[d66_q2a_vector_range_erase.pdf](pdfs/d66_q2a_vecto
 Vector Partial Sort|★☆|[d66_q2c_vector_partial_sort.pdf](pdfs/d66_q2c_vector_partial_sort.pdf)|not done yet|
 Dense Graph|-|[d57_q1_dense.pdf](pdfs/d57_q1_dense.pdf)|not done yet|
 Sparse Graph|-|[d57_q1_sparse.pdf](pdfs/d57_q1_sparse.pdf)|not done yet|
-Stack Reverse|★☆|[d66_q2b_stack_reverse.pdf](pdfs/d66_q2b_stack_reverse.pdf)|not done yet|
+Stack Reverse|★☆|[d66_q2b_stack_reverse.pdf](pdfs/d66_q2b_stack_reverse.pdf)|[Solution](src/d66_q2b_stack_reverse)|
 Queue Vertical Split|★★|[d66_q3a_queue_vertical_split.pdf](pdfs/d66_q3a_queue_vertical_split.pdf)|not done yet|
 Queue Free Space|☆|[d66_q3b_queue_free.pdf](pdfs/d66_q3b_queue_free.pdf)|not done yet|
 Queue Remove Many|-|[da66_m1_queue_remove_many.pdf](pdfs/da66_m1_queue_remove_many.pdf)|not done yet|
