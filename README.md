@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (51/103, 50% done)
+## Practice Problems (52/103, 50% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Heap Descendant|★★|[d62_q3a_heap_descendant.pdf](pdfs/d62_q3a_heap_descendant.pdf)|not done yet|
@@ -51,7 +51,7 @@ Queue Remove Many|-|[da66_m1_queue_remove_many.pdf](pdfs/da66_m1_queue_remove_ma
 Queue to Vector|★☆|[d58_q1_to_vector.pdf](pdfs/d58_q1_to_vector.pdf)|not done yet|
 Queue Check|★★☆|[d64_q3a_queue_check.pdf](pdfs/d64_q3a_queue_check.pdf)|not done yet|
 Queue Reverse|★★|[d64_q3b_queue_reverse.pdf](pdfs/d64_q3b_queue_reverse.pdf)|not done yet|
-Queue Total Reverse|★★☆|[d65_q3b_queue_total_reverse.pdf](pdfs/d65_q3b_queue_total_reverse.pdf)|not done yet|
+Queue Total Reverse|★★☆|[d65_q3b_queue_total_reverse.pdf](pdfs/d65_q3b_queue_total_reverse.pdf)|[Solution](src/d65_q3b_queue_total_reverse)|
 Queue Equality|★☆|[d59_q2_queue_equality.pdf](pdfs/d59_q2_queue_equality.pdf)|not done yet|
 Split Queue|★☆|[d60_q2_split_queue.pdf](pdfs/d60_q2_split_queue.pdf)|not done yet|
 Multi Count|★☆|[d62_q2a_multi_count.pdf](pdfs/d62_q2a_multi_count.pdf)|not done yet|
