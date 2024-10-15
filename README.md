@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (58/103, 56% done)
+## Practice Problems (59/103, 57% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Heap Descendant|★★|[d62_q3a_heap_descendant.pdf](pdfs/d62_q3a_heap_descendant.pdf)|not done yet|
@@ -54,7 +54,7 @@ Queue Reverse|★★|[d64_q3b_queue_reverse.pdf](pdfs/d64_q3b_queue_reverse.pdf)
 Queue Total Reverse|★★☆|[d65_q3b_queue_total_reverse.pdf](pdfs/d65_q3b_queue_total_reverse.pdf)|[Solution](src/d65_q3b_queue_total_reverse)|
 Queue Equality|★☆|[d59_q2_queue_equality.pdf](pdfs/d59_q2_queue_equality.pdf)|not done yet|
 Split Queue|★☆|[d60_q2_split_queue.pdf](pdfs/d60_q2_split_queue.pdf)|[Solution](src/d60_q2_split_queue)|
-Multi Count|★☆|[d62_q2a_multi_count.pdf](pdfs/d62_q2a_multi_count.pdf)|not done yet|
+Multi Count|★☆|[d62_q2a_multi_count.pdf](pdfs/d62_q2a_multi_count.pdf)|[Solution](src/d62_q2a_multi_count)|
 Queue Move to Front|★☆|[d62_q3b_queue_m2f.pdf](pdfs/d62_q3b_queue_m2f.pdf)|[Solution](src/d62_q3b_queue_m2f)|test case ตัวอย่างใน PDF ผิด
 Queue Move to Back|★☆|[d63_q3a_queue_m2b.pdf](pdfs/d63_q3a_queue_m2b.pdf)|[Solution](src/d63_q3a_queue_m2b)|
 Queue Back to Front|★☆|[d63_q3b_queue_b2f.pdf](pdfs/d63_q3b_queue_b2f.pdf)|[Solution](src/d63_q3b_queue_b2f)|
