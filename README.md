@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (57/103, 55% done)
+## Practice Problems (58/103, 56% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Heap Descendant|★★|[d62_q3a_heap_descendant.pdf](pdfs/d62_q3a_heap_descendant.pdf)|not done yet|
@@ -48,7 +48,7 @@ Stack Reverse|★☆|[d66_q2b_stack_reverse.pdf](pdfs/d66_q2b_stack_reverse.pdf)
 Queue Vertical Split|★★|[d66_q3a_queue_vertical_split.pdf](pdfs/d66_q3a_queue_vertical_split.pdf)|not done yet|
 Queue Free Space|☆|[d66_q3b_queue_free.pdf](pdfs/d66_q3b_queue_free.pdf)|not done yet|
 Queue Remove Many|-|[da66_m1_queue_remove_many.pdf](pdfs/da66_m1_queue_remove_many.pdf)|not done yet|
-Queue to Vector|★☆|[d58_q1_to_vector.pdf](pdfs/d58_q1_to_vector.pdf)|not done yet|
+Queue to Vector|★☆|[d58_q1_to_vector.pdf](pdfs/d58_q1_to_vector.pdf)|[Solution](src/d58_q1_to_vector)|
 Queue Check|★★☆|[d64_q3a_queue_check.pdf](pdfs/d64_q3a_queue_check.pdf)|not done yet|
 Queue Reverse|★★|[d64_q3b_queue_reverse.pdf](pdfs/d64_q3b_queue_reverse.pdf)|[Solution](src/d64_q3b_queue_reverse)|
 Queue Total Reverse|★★☆|[d65_q3b_queue_total_reverse.pdf](pdfs/d65_q3b_queue_total_reverse.pdf)|[Solution](src/d65_q3b_queue_total_reverse)|
