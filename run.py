@@ -24,7 +24,8 @@ def run_cpp_program(file_name):
         print(f"{file_name} does not exist", file=sys.stderr)
         return
 
-    compile_command = f"g++-14 --std=c++17 -O2 {src_file} -o {bin_file}"
+    compiler = "g++-14" if sys.platform == "darwin" else "g++"
+    compile_command = f"{compiler} --std=c++17 -O2 {src_file} -o {bin_file}"
     compile_begin = time.time()
     compile_process = subprocess.run(shlex.split(compile_command))
     compile_end = time.time()
