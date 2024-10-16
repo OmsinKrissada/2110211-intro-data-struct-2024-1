@@ -4,6 +4,7 @@ import re
 import os
 import time
 import random
+import sys
 
 quizes = {
     "Quiz 0 (sample quiz, no score)": ["d63_q1a_multi_insert", "d67_q0a_shoe_sizing"],
@@ -26,7 +27,7 @@ remarks = {
     "d60_q1_qat": "circular queue intro",
     "d67_q1b_wall_paint": "20.0 [PPPP----TTTTTTTTTTTT]",
     "d67_q2a_double_stack": "~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now",
-    'd62_q3b_queue_m2f':"test case ตัวอย่างใน PDF ผิด",
+    "d62_q3b_queue_m2f": "test case ตัวอย่างใน PDF ผิด",
 }
 
 quiz_names = set()
@@ -141,14 +142,20 @@ def download():
         if first:
             first = False
             # this is specific to my setup
-            os.system("open -a Arc arc://settings/content/pdfDocuments")
+            if sys.platform == "linux":
+                os.system("google-chrome-stable chrome://settings/content/pdfDocuments")
+            elif sys.platform == "darwin":
+                os.system("open -a Arc arc://settings/content/pdfDocuments")
             input()
         target_url = (
             f"https://grader.nattee.net/problems/{t['id']}/get_statement/{filename}"
         )
         # subprocess.run(['start','chrome'])
         # print("Opening", target_url)
-        os.system(f"open {target_url}")
+        if sys.platform == "linux":
+            os.system(f"google-chrome-stable {target_url}")
+        elif sys.platform == "darwin":
+            os.system(f"open {target_url}")
         time.sleep(0.3 + random.randint(1, 10) / 10 * 0.5)
 
 

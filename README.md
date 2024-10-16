@@ -1,3 +1,5 @@
+Opening in existing browser session.
+Opening in existing browser session.
 « [แชร์แล้วสอบผ่าน](https://www.instagram.com/reel/CzvAdBCJQl8/) »
 
 <video width="320" height="240" controls src="https://git.krissada.com/Omsin/2110211-intro-data-struct-2024-1/raw/branch/main/nattee-advice.mp4">
@@ -23,9 +25,12 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (59/107, 55% done)
+## Practice Problems (59/110, 54% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
+Heap Ordering 2|★☆|[d57_q2_heap_order2.pdf](pdfs/d57_q2_heap_order2.pdf)|not done yet|
+Heap Equality|★☆|[d58_q2_hequal.pdf](pdfs/d58_q2_hequal.pdf)|not done yet|
+Heap Node Relation 2|★★|[d65_q3a_heap_relation_2.pdf](pdfs/d65_q3a_heap_relation_2.pdf)|not done yet|
 K-Ary Heap|★☆|[d57_q2_kheap.pdf](pdfs/d57_q2_kheap.pdf)|not done yet|
 K-ary Heap Height|★☆|[d62_q3b_kheap_height.pdf](pdfs/d62_q3b_kheap_height.pdf)|not done yet|
 Heap K-th|★☆|[d64_q3a_heap_kth.pdf](pdfs/d64_q3a_heap_kth.pdf)|not done yet|
