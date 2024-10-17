@@ -1,5 +1,3 @@
-Opening in existing browser session.
-Opening in existing browser session.
 « [แชร์แล้วสอบผ่าน](https://www.instagram.com/reel/CzvAdBCJQl8/) »
 
 <video width="320" height="240" controls src="https://git.krissada.com/Omsin/2110211-intro-data-struct-2024-1/raw/branch/main/nattee-advice.mp4">
@@ -25,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (59/110, 54% done)
+## Practice Problems (60/110, 55% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Heap Ordering 2|★☆|[d57_q2_heap_order2.pdf](pdfs/d57_q2_heap_order2.pdf)|not done yet|
@@ -43,7 +41,7 @@ Heap Check|★☆|[d65_q3b_heap_check.pdf](pdfs/d65_q3b_heap_check.pdf)|not done
 Heap Ordering|★☆|[ds03_heap_order.pdf](pdfs/ds03_heap_order.pdf)|not done yet|
 Heap Find|★☆|[d59_q2_heap_find.pdf](pdfs/d59_q2_heap_find.pdf)|not done yet|
 Heap Node Relation|★☆|[d62_q3a_heap_node_relation.pdf](pdfs/d62_q3a_heap_node_relation.pdf)|not done yet|
-Heap Before Node|-|[da66_m1_heap_before_node.pdf](pdfs/da66_m1_heap_before_node.pdf)|not done yet|
+Heap Before Node|★★|[da66_m1_heap_before_node.pdf](pdfs/da66_m1_heap_before_node.pdf)|[Solution](src/da66_m1_heap_before_node.cpp)|
 Heap Erase|★☆|[ds03_heap_erase.pdf](pdfs/ds03_heap_erase.pdf)|not done yet|
 Custom Order|★|[d58_q2_custom.pdf](pdfs/d58_q2_custom.pdf)|not done yet|
 Heap Height|★|[d60_q2_heap_height.pdf](pdfs/d60_q2_heap_height.pdf)|not done yet|
