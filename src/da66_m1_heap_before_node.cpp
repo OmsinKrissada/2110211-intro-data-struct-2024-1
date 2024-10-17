@@ -1,31 +1,32 @@
 #include <iostream>
-#include <vector>
 #include <queue>
-#include <cmath>
+#include <vector>
 using namespace std;
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
     int n, m;
     cin >> n >> m;
 
-    int depth = log2(n) + 1;
-
-    vector<bool> found(n, false);
-    int foundCount = 0;
-    queue<int> frame;
-    frame.push(m);
-    while (!frame.empty()) {
-        int i = frame.front();
-        frame.pop();
-        found[i] = true;
-        foundCount++;
+    vector<int> found;
+    queue<int> q;
+    q.push(m);
+    while (!q.empty()) {
+        int i = q.front();
+        q.pop();
+        found.push_back(i);
         int left = 2 * i + 1, right = 2 * i + 2;
-        if (left < n) frame.push(left);
-        if (right < n) frame.push(right);
+        if (left < n) q.push(left);
+        if (right < n) q.push(right);
     }
 
-    cout << n - foundCount << '\n';
+    cout << n - found.size() << '\n';
+    int look = 0;
     for (int i = 0; i < n; i++) {
-        if (!found[i]) cout << i << ' ';
+        if (found[look] != i)
+            cout << i << ' ';
+        else
+            look++;
     }
 }
