@@ -25,7 +25,7 @@ def run_cpp_program(file_name):
         return
 
     compiler = "g++-14" if sys.platform == "darwin" else "g++"
-    compile_command = f"{compiler} --std=c++17 -O2 {src_file} -o {bin_file}"
+    compile_command = f"{compiler} --std=c++17 -O2 -DDEBUG {src_file} -o {bin_file}"
     compile_begin = time.time()
     compile_process = subprocess.run(shlex.split(compile_command))
     compile_end = time.time()
