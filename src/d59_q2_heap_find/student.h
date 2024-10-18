@@ -14,7 +14,7 @@ bool CP::priority_queue<T, Comp>::find(T k) const {
     size_t checkpoint = 2;
     T maxPerLevel = mData[0];
     for (size_t i = 0; i < mSize; i++) {
-        if (mData[i] > maxPerLevel) maxPerLevel = mData[i];
+        if (mLess(maxPerLevel, mData[i])) maxPerLevel = mData[i];
         if (mData[i] == k) return true;
         if (i == checkpoint) {
             if (mLess(maxPerLevel, k)) return false;
@@ -32,7 +32,7 @@ int CP::priority_queue<T, Comp>::find_level(T k) const {
     size_t checkpoint = 2;
     T maxPerLevel = mData[0];
     for (size_t i = 0; i < mSize; i++) {
-        if (mData[i] > maxPerLevel) maxPerLevel = mData[i];
+        if (mLess(maxPerLevel, mData[i])) maxPerLevel = mData[i];
         if (mData[i] == k) maxDepth = log2(i + 1);
         if (i == checkpoint) {
             if (mLess(maxPerLevel, k)) break;
