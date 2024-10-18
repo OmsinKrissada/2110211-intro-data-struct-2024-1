@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (60/110, 55% done)
+## Practice Problems (61/110, 55% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Heap Ordering 2|★☆|[d57_q2_heap_order2.pdf](pdfs/d57_q2_heap_order2.pdf)|not done yet|
@@ -39,7 +39,7 @@ Car Brake|★★|[d66_q1b_car_brake.pdf](pdfs/d66_q1b_car_brake.pdf)|not done ye
 Heap Change Value|★☆|[d63_q3b_heap_change.pdf](pdfs/d63_q3b_heap_change.pdf)|not done yet|
 Heap Check|★☆|[d65_q3b_heap_check.pdf](pdfs/d65_q3b_heap_check.pdf)|not done yet|
 Heap Ordering|★☆|[ds03_heap_order.pdf](pdfs/ds03_heap_order.pdf)|not done yet|
-Heap Find|★☆|[d59_q2_heap_find.pdf](pdfs/d59_q2_heap_find.pdf)|not done yet|
+Heap Find|★☆|[d59_q2_heap_find.pdf](pdfs/d59_q2_heap_find.pdf)|[Solution](src/d59_q2_heap_find)|
 Heap Node Relation|★☆|[d62_q3a_heap_node_relation.pdf](pdfs/d62_q3a_heap_node_relation.pdf)|not done yet|
 Heap Before Node|★★|[da66_m1_heap_before_node.pdf](pdfs/da66_m1_heap_before_node.pdf)|[Solution](src/da66_m1_heap_before_node.cpp)|
 Heap Erase|★☆|[ds03_heap_erase.pdf](pdfs/ds03_heap_erase.pdf)|not done yet|
