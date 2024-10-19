@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (61/110, 55% done)
+## Practice Problems (62/110, 56% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Heap Ordering 2|★☆|[d57_q2_heap_order2.pdf](pdfs/d57_q2_heap_order2.pdf)|not done yet|
@@ -47,7 +47,7 @@ Custom Order|★|[d58_q2_custom.pdf](pdfs/d58_q2_custom.pdf)|not done yet|
 Heap Height|★|[d60_q2_heap_height.pdf](pdfs/d60_q2_heap_height.pdf)|not done yet|
 Rank in Heap|★|[d63_q3a_rank_in_heap.pdf](pdfs/d63_q3a_rank_in_heap.pdf)|[Solution](src/d63_q3a_rank_in_heap)|
 Stack Vertical Split|★★|[d66_q2a_stack_vertical_split.pdf](pdfs/d66_q2a_stack_vertical_split.pdf)|not done yet|
-Vector Range Erase|★★☆|[d66_q2a_vector_range_erase.pdf](pdfs/d66_q2a_vector_range_erase.pdf)|not done yet|
+Vector Range Erase|★★☆|[d66_q2a_vector_range_erase.pdf](pdfs/d66_q2a_vector_range_erase.pdf)|[Solution](src/d66_q2a_vector_range_erase)|
 Vector Partial Sort|★☆|[d66_q2c_vector_partial_sort.pdf](pdfs/d66_q2c_vector_partial_sort.pdf)|not done yet|
 Dense Graph|-|[d57_q1_dense.pdf](pdfs/d57_q1_dense.pdf)|[Solution](src/d57_q1_dense)|
 Sparse Graph|-|[d57_q1_sparse.pdf](pdfs/d57_q1_sparse.pdf)|[Solution](src/d57_q1_sparse)|
