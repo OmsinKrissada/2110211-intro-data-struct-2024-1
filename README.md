@@ -23,9 +23,12 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (62/110, 56% done)
+## Practice Problems (64/113, 57% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
+Zuma|-|[d57_q3_zuma.pdf](pdfs/d57_q3_zuma.pdf)|[Solution](src/d57_q3_zuma.cpp)|
+List Replace|-|[d58_q3_list_replace.pdf](pdfs/d58_q3_list_replace.pdf)|[Solution](src/d58_q3_list_replace)|
+List Reverse|-|[d63_q4a_list_reverse.pdf](pdfs/d63_q4a_list_reverse.pdf)|not done yet|
 Heap Ordering 2|★☆|[d57_q2_heap_order2.pdf](pdfs/d57_q2_heap_order2.pdf)|not done yet|
 Heap Equality|★☆|[d58_q2_hequal.pdf](pdfs/d58_q2_hequal.pdf)|not done yet|
 Heap Node Relation 2|★★|[d65_q3a_heap_relation_2.pdf](pdfs/d65_q3a_heap_relation_2.pdf)|not done yet|
