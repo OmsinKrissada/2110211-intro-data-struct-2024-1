@@ -27,5 +27,6 @@ test.*
 *.out
 data/
 trash/
+ignore/
 
 .DS_Store

@@ -17,7 +17,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|~~PPPPPPPPPPPPTTPPPPPP~~ full score now
 Sort Position|-|[d67_q1a_sort_position.pdf](pdfs/d67_q1a_sort_position.pdf)|[Solution](src/d67_q1a_sort_position.cpp)|
-Wall Paint|-|[d67_q1b_wall_paint.pdf](pdfs/d67_q1b_wall_paint.pdf)|[Solution](src/d67_q1b_wall_paint.cpp)|20.0 [PPPP----TTTTTTTTTTTT]
+Wall Paint|-|[d67_q1b_wall_paint.pdf](pdfs/d67_q1b_wall_paint.pdf)|[Solution](src/d67_q1b_wall_paint.cpp)|~~20.0 [PPPP----TTTTTTTTTTTT]~~ full score now
 ### Quiz 2 (Vector & Stack)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
