@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (67/124, 54% done)
+## Practice Problems (68/124, 55% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 List Block Swap|-|[d66_q4a_list_block_swap.pdf](pdfs/d66_q4a_list_block_swap.pdf)|not done yet|
@@ -37,7 +37,7 @@ List Remove All|★☆|[d60_q3_lremove_all.pdf](pdfs/d60_q3_lremove_all.pdf)|not
 List Merge|★☆|[d64_q4a_list_merge.pdf](pdfs/d64_q4a_list_merge.pdf)|not done yet|
 Zuma|★★★|[d57_q3_zuma.pdf](pdfs/d57_q3_zuma.pdf)|[Solution](src/d57_q3_zuma.cpp)|
 List Replace|★★|[d58_q3_list_replace.pdf](pdfs/d58_q3_list_replace.pdf)|[Solution](src/d58_q3_list_replace)|
-List Reverse|★★|[d63_q4a_list_reverse.pdf](pdfs/d63_q4a_list_reverse.pdf)|not done yet|
+List Reverse|★★|[d63_q4a_list_reverse.pdf](pdfs/d63_q4a_list_reverse.pdf)|[Solution](src/d63_q4a_list_reverse)|
 Heap Ordering 2|★☆|[d57_q2_heap_order2.pdf](pdfs/d57_q2_heap_order2.pdf)|not done yet|
 Heap Equality|★☆|[d58_q2_hequal.pdf](pdfs/d58_q2_hequal.pdf)|not done yet|
 Heap Node Relation 2|★★|[d65_q3a_heap_relation_2.pdf](pdfs/d65_q3a_heap_relation_2.pdf)|not done yet|
