@@ -23,12 +23,21 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (65/113, 58% done)
+## Practice Problems (65/124, 52% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
-Zuma|-|[d57_q3_zuma.pdf](pdfs/d57_q3_zuma.pdf)|[Solution](src/d57_q3_zuma.cpp)|
-List Replace|-|[d58_q3_list_replace.pdf](pdfs/d58_q3_list_replace.pdf)|[Solution](src/d58_q3_list_replace)|
-List Reverse|-|[d63_q4a_list_reverse.pdf](pdfs/d63_q4a_list_reverse.pdf)|not done yet|
+List Block Swap|-|[d66_q4a_list_block_swap.pdf](pdfs/d66_q4a_list_block_swap.pdf)|not done yet|
+List Split|★★|[d59_q3_list_split.pdf](pdfs/d59_q3_list_split.pdf)|not done yet|
+List check|★★☆|[d65_q4a_list_check.pdf](pdfs/d65_q4a_list_check.pdf)|not done yet|
+Split List|★★|[d61_q2_splitlist.pdf](pdfs/d61_q2_splitlist.pdf)|not done yet|
+List Extract|★★|[d63_q4b_list_extract.pdf](pdfs/d63_q4b_list_extract.pdf)|not done yet|
+Playlist Management|★★|[ds04_playlist.pdf](pdfs/ds04_playlist.pdf)|not done yet|
+Shift|★☆|[d57_q3_shift.pdf](pdfs/d57_q3_shift.pdf)|not done yet|
+List Remove All|★☆|[d60_q3_lremove_all.pdf](pdfs/d60_q3_lremove_all.pdf)|not done yet|
+List Merge|★☆|[d64_q4a_list_merge.pdf](pdfs/d64_q4a_list_merge.pdf)|not done yet|
+Zuma|★★★|[d57_q3_zuma.pdf](pdfs/d57_q3_zuma.pdf)|[Solution](src/d57_q3_zuma.cpp)|
+List Replace|★★|[d58_q3_list_replace.pdf](pdfs/d58_q3_list_replace.pdf)|[Solution](src/d58_q3_list_replace)|
+List Reverse|★★|[d63_q4a_list_reverse.pdf](pdfs/d63_q4a_list_reverse.pdf)|not done yet|
 Heap Ordering 2|★☆|[d57_q2_heap_order2.pdf](pdfs/d57_q2_heap_order2.pdf)|not done yet|
 Heap Equality|★☆|[d58_q2_hequal.pdf](pdfs/d58_q2_hequal.pdf)|not done yet|
 Heap Node Relation 2|★★|[d65_q3a_heap_relation_2.pdf](pdfs/d65_q3a_heap_relation_2.pdf)|not done yet|
@@ -52,12 +61,12 @@ Rank in Heap|★|[d63_q3a_rank_in_heap.pdf](pdfs/d63_q3a_rank_in_heap.pdf)|[Solu
 Stack Vertical Split|★★|[d66_q2a_stack_vertical_split.pdf](pdfs/d66_q2a_stack_vertical_split.pdf)|not done yet|
 Vector Range Erase|★★☆|[d66_q2a_vector_range_erase.pdf](pdfs/d66_q2a_vector_range_erase.pdf)|[Solution](src/d66_q2a_vector_range_erase)|
 Vector Partial Sort|★☆|[d66_q2c_vector_partial_sort.pdf](pdfs/d66_q2c_vector_partial_sort.pdf)|not done yet|
-Dense Graph|-|[d57_q1_dense.pdf](pdfs/d57_q1_dense.pdf)|[Solution](src/d57_q1_dense)|
-Sparse Graph|-|[d57_q1_sparse.pdf](pdfs/d57_q1_sparse.pdf)|[Solution](src/d57_q1_sparse)|
+Dense Graph|★☆|[d57_q1_dense.pdf](pdfs/d57_q1_dense.pdf)|[Solution](src/d57_q1_dense)|
+Sparse Graph|★☆|[d57_q1_sparse.pdf](pdfs/d57_q1_sparse.pdf)|[Solution](src/d57_q1_sparse)|
 Stack Reverse|★☆|[d66_q2b_stack_reverse.pdf](pdfs/d66_q2b_stack_reverse.pdf)|[Solution](src/d66_q2b_stack_reverse)|
 Queue Vertical Split|★★|[d66_q3a_queue_vertical_split.pdf](pdfs/d66_q3a_queue_vertical_split.pdf)|not done yet|
 Queue Free Space|☆|[d66_q3b_queue_free.pdf](pdfs/d66_q3b_queue_free.pdf)|not done yet|
-Queue Remove Many|-|[da66_m1_queue_remove_many.pdf](pdfs/da66_m1_queue_remove_many.pdf)|not done yet|
+Queue Remove Many|★|[da66_m1_queue_remove_many.pdf](pdfs/da66_m1_queue_remove_many.pdf)|not done yet|
 Queue to Vector|★☆|[d58_q1_to_vector.pdf](pdfs/d58_q1_to_vector.pdf)|[Solution](src/d58_q1_to_vector)|
 Queue Check|★★☆|[d64_q3a_queue_check.pdf](pdfs/d64_q3a_queue_check.pdf)|not done yet|
 Queue Reverse|★★|[d64_q3b_queue_reverse.pdf](pdfs/d64_q3b_queue_reverse.pdf)|[Solution](src/d64_q3b_queue_reverse)|
@@ -101,6 +110,8 @@ Is Reverse?|★|[ds02_is_reverse.pdf](pdfs/ds02_is_reverse.pdf)|not done yet|
 Pair GTE|★|[d63_q2a_pair_gte.pdf](pdfs/d63_q2a_pair_gte.pdf)|not done yet|
 Booking|★★|[d66_q1a_booking.pdf](pdfs/d66_q1a_booking.pdf)|not done yet|
 Top Sale|★★☆|[d66_q1a_topsale.pdf](pdfs/d66_q1a_topsale.pdf)|not done yet|
+Company Department|★★|[d66_q1c_company_department.pdf](pdfs/d66_q1c_company_department.pdf)|not done yet|
+Line Monopoly|-|[da66_m1_line_monopoly.pdf](pdfs/da66_m1_line_monopoly.pdf)|not done yet|
 Restaurant|★★|[ex00m1.pdf](pdfs/ex00m1.pdf)|[Solution](src/ex00m1.cpp)|PPxPPPPPPP
 Auction|★☆|[ex00m2.pdf](pdfs/ex00m2.pdf)|[Solution](src/ex00m2.cpp)|
 3: Cross 2D|★★|[d65_q1b_cross_2d.pdf](pdfs/d65_q1b_cross_2d.pdf)|not done yet|
