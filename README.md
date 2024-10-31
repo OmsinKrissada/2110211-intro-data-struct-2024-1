@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (65/124, 52% done)
+## Practice Problems (66/124, 53% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 List Block Swap|-|[d66_q4a_list_block_swap.pdf](pdfs/d66_q4a_list_block_swap.pdf)|not done yet|
@@ -55,7 +55,7 @@ Heap Find|★☆|[d59_q2_heap_find.pdf](pdfs/d59_q2_heap_find.pdf)|[Solution](sr
 Heap Node Relation|★☆|[d62_q3a_heap_node_relation.pdf](pdfs/d62_q3a_heap_node_relation.pdf)|not done yet|
 Heap Before Node|★★|[da66_m1_heap_before_node.pdf](pdfs/da66_m1_heap_before_node.pdf)|[Solution](src/da66_m1_heap_before_node.cpp)|
 Heap Erase|★☆|[ds03_heap_erase.pdf](pdfs/ds03_heap_erase.pdf)|not done yet|
-Custom Order|★|[d58_q2_custom.pdf](pdfs/d58_q2_custom.pdf)|not done yet|
+Custom Order|★|[d58_q2_custom.pdf](pdfs/d58_q2_custom.pdf)|[Solution](src/d58_q2_custom)|i use tuple btw
 Heap Height|★|[d60_q2_heap_height.pdf](pdfs/d60_q2_heap_height.pdf)|[Solution](src/d60_q2_heap_height)|
 Rank in Heap|★|[d63_q3a_rank_in_heap.pdf](pdfs/d63_q3a_rank_in_heap.pdf)|[Solution](src/d63_q3a_rank_in_heap)|
 Stack Vertical Split|★★|[d66_q2a_stack_vertical_split.pdf](pdfs/d66_q2a_stack_vertical_split.pdf)|not done yet|
