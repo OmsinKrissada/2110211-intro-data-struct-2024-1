@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (78/124, 63% done)
+## Practice Problems (79/124, 64% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 List Block Swap|-|[d66_q4a_list_block_swap.pdf](pdfs/d66_q4a_list_block_swap.pdf)|not done yet|
@@ -40,7 +40,7 @@ List Replace|★★|[d58_q3_list_replace.pdf](pdfs/d58_q3_list_replace.pdf)|[Sol
 List Reverse|★★|[d63_q4a_list_reverse.pdf](pdfs/d63_q4a_list_reverse.pdf)|[Solution](src/d63_q4a_list_reverse)|
 Heap Ordering 2|★☆|[d57_q2_heap_order2.pdf](pdfs/d57_q2_heap_order2.pdf)|[Solution](src/d57_q2_heap_order2.cpp)|tf ทำไมมันดูเหมือน ds03_heap_order เดะๆเลย
 Heap Equality|★☆|[d58_q2_hequal.pdf](pdfs/d58_q2_hequal.pdf)|not done yet|
-Heap Node Relation 2|★★|[d65_q3a_heap_relation_2.pdf](pdfs/d65_q3a_heap_relation_2.pdf)|not done yet|
+Heap Node Relation 2|★★|[d65_q3a_heap_relation_2.pdf](pdfs/d65_q3a_heap_relation_2.pdf)|[Solution](src/d65_q3a_heap_relation_2.cpp)|
 K-Ary Heap|★☆|[d57_q2_kheap.pdf](pdfs/d57_q2_kheap.pdf)|not done yet|
 K-ary Heap Height|★☆|[d62_q3b_kheap_height.pdf](pdfs/d62_q3b_kheap_height.pdf)|not done yet|
 Heap K-th|★☆|[d64_q3a_heap_kth.pdf](pdfs/d64_q3a_heap_kth.pdf)|not done yet|
