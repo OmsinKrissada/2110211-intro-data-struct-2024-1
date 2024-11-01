@@ -16,7 +16,8 @@ int main() {
 
     // shoot
     list<short>::iterator head = l.begin();
-    for (int i = 0; i < k; i++) head++;
+    advance(head, k);
+
     head = l.insert(head, v);
 
     // eliminate(l, shoot);
