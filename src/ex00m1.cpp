@@ -17,11 +17,11 @@ int main() {
     int counter = 0, i = 0;
     while (true) {
         for (auto& e : intervals) {
-            if (i % e == 0) {
+            if (e == 0 || i % e == 0) {
                 cout << i << '\n';
                 counter++;
+                if (counter >= m) return 0;
             }
-            if (counter >= m) return 0;
         }
         i++;
     }
