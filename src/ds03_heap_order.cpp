@@ -131,12 +131,10 @@ class student {
     student(std::string aname, int ascore) : name(aname), score(ascore) {}
 };
 
-#include <tuple>
 class Comp {
    public:
     bool operator()(student l, student r) {
-        typedef std::tuple<int, std::string> tup;
-        return tup(-l.score, l.name) > tup(-r.score, r.name);
+        return l.score < r.score || l.score == r.score && l.name > r.name;
     }
 };
 
