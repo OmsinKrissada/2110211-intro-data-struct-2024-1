@@ -112,7 +112,7 @@ Booking|★★|[d66_q1a_booking.pdf](pdfs/d66_q1a_booking.pdf)|not done yet|
 Top Sale|★★☆|[d66_q1a_topsale.pdf](pdfs/d66_q1a_topsale.pdf)|not done yet|
 Company Department|★★|[d66_q1c_company_department.pdf](pdfs/d66_q1c_company_department.pdf)|not done yet|
 Line Monopoly|-|[da66_m1_line_monopoly.pdf](pdfs/da66_m1_line_monopoly.pdf)|not done yet|
-Restaurant|★★|[ex00m1.pdf](pdfs/ex00m1.pdf)|[Solution](src/ex00m1.cpp)|PPxPPPPPPP
+Restaurant|★★|[ex00m1.pdf](pdfs/ex00m1.pdf)|[Solution](src/ex00m1.cpp)|
 Auction|★☆|[ex00m2.pdf](pdfs/ex00m2.pdf)|[Solution](src/ex00m2.cpp)|
 3: Cross 2D|★★|[d65_q1b_cross_2d.pdf](pdfs/d65_q1b_cross_2d.pdf)|not done yet|
 4: Sparse Vector|★★☆|[d65_q1b_sparse_vector.pdf](pdfs/d65_q1b_sparse_vector.pdf)|not done yet|

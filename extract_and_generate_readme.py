@@ -22,7 +22,6 @@ quizes = {
 remarks = {
     "d67_q0a_shoe_sizing": 'manual "binary search" instead of `lower_bound`',
     "d64_q1b_moving_median": "doesn't use `multiset`",
-    "ex00m1": "PPxPPPPPPP",
     "d67_q1a_cpu_reservation": "~~PPPPPPPPPPPPTTPPPPPP~~ full score now",
     "d60_q1_qat": "circular queue intro",
     "d67_q1b_wall_paint": "~~20.0 [PPPP----TTTTTTTTTTTT]~~ full score now",
