@@ -29,6 +29,7 @@ remarks = {
     "d62_q3b_queue_m2f": "test case ตัวอย่างใน PDF ผิด",
     "d58_q2_custom": "i use tuple btw",
     "d57_q2_heap_order2": "tf ทำไมมันดูเหมือน ds03_heap_order เดะๆเลย",
+    "d64_q3a_queue_check": "take a look at [this one](https://grader.nattee.net/submissions/473394)",
 }
 
 quiz_names = set()

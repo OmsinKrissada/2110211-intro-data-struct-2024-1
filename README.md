@@ -68,7 +68,7 @@ Queue Vertical Split|★★|[d66_q3a_queue_vertical_split.pdf](pdfs/d66_q3a_queu
 Queue Free Space|☆|[d66_q3b_queue_free.pdf](pdfs/d66_q3b_queue_free.pdf)|not done yet|
 Queue Remove Many|★|[da66_m1_queue_remove_many.pdf](pdfs/da66_m1_queue_remove_many.pdf)|[Solution](src/da66_m1_queue_remove_many)|
 Queue to Vector|★☆|[d58_q1_to_vector.pdf](pdfs/d58_q1_to_vector.pdf)|[Solution](src/d58_q1_to_vector)|
-Queue Check|★★☆|[d64_q3a_queue_check.pdf](pdfs/d64_q3a_queue_check.pdf)|not done yet|
+Queue Check|★★☆|[d64_q3a_queue_check.pdf](pdfs/d64_q3a_queue_check.pdf)|not done yet|take a look at [this one](https://grader.nattee.net/submissions/473394)
 Queue Reverse|★★|[d64_q3b_queue_reverse.pdf](pdfs/d64_q3b_queue_reverse.pdf)|[Solution](src/d64_q3b_queue_reverse)|
 Queue Total Reverse|★★☆|[d65_q3b_queue_total_reverse.pdf](pdfs/d65_q3b_queue_total_reverse.pdf)|[Solution](src/d65_q3b_queue_total_reverse)|
 Queue Equality|★☆|[d59_q2_queue_equality.pdf](pdfs/d59_q2_queue_equality.pdf)|[Solution](src/d59_q2_queue_equality)|
