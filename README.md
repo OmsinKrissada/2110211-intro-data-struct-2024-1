@@ -23,7 +23,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
-## Practice Problems (80/124, 65% done)
+## Practice Problems (81/124, 65% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 List Block Swap|-|[d66_q4a_list_block_swap.pdf](pdfs/d66_q4a_list_block_swap.pdf)|not done yet|
@@ -46,7 +46,7 @@ K-ary Heap Height|★☆|[d62_q3b_kheap_height.pdf](pdfs/d62_q3b_kheap_height.pd
 Heap K-th|★☆|[d64_q3a_heap_kth.pdf](pdfs/d64_q3a_heap_kth.pdf)|not done yet|
 K-ary Heap Check|★★|[d66_q3a_kheap_check.pdf](pdfs/d66_q3a_kheap_check.pdf)|[Solution](src/d66_q3a_kheap_check.cpp)|
 Heap Descendant|★★|[d62_q3a_heap_descendant.pdf](pdfs/d62_q3a_heap_descendant.pdf)|not done yet|
-Heap Level|★★|[d64_q3b_heap_level.pdf](pdfs/d64_q3b_heap_level.pdf)|not done yet|
+Heap Level|★★|[d64_q3b_heap_level.pdf](pdfs/d64_q3b_heap_level.pdf)|[Solution](src/d64_q3b_heap_level)|
 Car Brake|★★|[d66_q1b_car_brake.pdf](pdfs/d66_q1b_car_brake.pdf)|[Solution](src/d66_q1b_car_brake.cpp)|
 Heap Change Value|★☆|[d63_q3b_heap_change.pdf](pdfs/d63_q3b_heap_change.pdf)|[Solution](src/d63_q3b_heap_change)|
 Heap Check|★☆|[d65_q3b_heap_check.pdf](pdfs/d65_q3b_heap_check.pdf)|[Solution](src/d65_q3b_heap_check)|
