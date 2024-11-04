@@ -1,12 +1,11 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    cin.tie(nullptr)->sync_with_stdio(false);
 
-    size_t size = 0, cap = 1;
-    size_t n;
+    long long size = 0, cap = 1;
+    int n;
     cin >> n;
     for (int i = 0; i < n; i++) {
         char op;
@@ -16,17 +15,14 @@ int main() {
             case 'p':
                 size += times;
                 while (cap < size) {
-                    cap *= 2;
+                    cap = cap << 1;
                 }
                 break;
             case 'o':
                 size -= times;
-                if (size < 0) size = 0;
                 break;
             case 'r':
-                if (times > cap) {
-                    cap = times;
-                }
+                if (times > cap) cap = times;
                 size = times;
                 break;
         }
