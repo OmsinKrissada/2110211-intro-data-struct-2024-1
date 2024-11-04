@@ -12,10 +12,16 @@ quizes = {
         "d67_q1a_cpu_reservation",
         "d67_q1a_sort_position",
         "d67_q1b_wall_paint",
+        "d67_q1c_hotel_room",
     ],
     "Quiz 2 (Vector & Stack)": [
         "d67_q2a_double_stack",
         "d67_q2a_vector_multi_uniq",
+        "d67_q2b_wasted_space_2",
+    ],
+    "Quiz 3 (Queue & Priority Queue)": [
+        "d67_q3a_kheap_ancestor",
+        "d67_q3a_queue_block_remove",
     ],
 }
 

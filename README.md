@@ -18,11 +18,18 @@ Name|Stars|PDF|My Solution|Remarks
 CPU Reservation|-|[d67_q1a_cpu_reservation.pdf](pdfs/d67_q1a_cpu_reservation.pdf)|[Solution](src/d67_q1a_cpu_reservation.cpp)|~~PPPPPPPPPPPPTTPPPPPP~~ full score now
 Sort Position|-|[d67_q1a_sort_position.pdf](pdfs/d67_q1a_sort_position.pdf)|[Solution](src/d67_q1a_sort_position.cpp)|
 Wall Paint|-|[d67_q1b_wall_paint.pdf](pdfs/d67_q1b_wall_paint.pdf)|[Solution](src/d67_q1b_wall_paint.cpp)|~~20.0 [PPPP----TTTTTTTTTTTT]~~ full score now
+Hotel Room|-|[d67_q1c_hotel_room.pdf](pdfs/d67_q1c_hotel_room.pdf)|[Solution](src/d67_q1c_hotel_room.cpp)|
 ### Quiz 2 (Vector & Stack)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Double Stack|-|[d67_q2a_double_stack.pdf](pdfs/d67_q2a_double_stack.pdf)|[Solution](src/d67_q2a_double_stack)|~~60.0 [PPPPPPPPPPPPTTTTTTTT]~~ full score now
 Vector Multi Unique|-|[d67_q2a_vector_multi_uniq.pdf](pdfs/d67_q2a_vector_multi_uniq.pdf)|[Solution](src/d67_q2a_vector_multi_uniq)|
+Wasted Space 2|-|[d67_q2b_wasted_space_2.pdf](pdfs/d67_q2b_wasted_space_2.pdf)|[Solution](src/d67_q2b_wasted_space_2.cpp)|
+### Quiz 3 (Queue & Priority Queue)
+Name|Stars|PDF|My Solution|Remarks
+---|---|---|---|---
+K-ary Lowest Common Ancestor|-|[d67_q3a_kheap_ancestor.pdf](pdfs/d67_q3a_kheap_ancestor.pdf)|[Solution](src/d67_q3a_kheap_ancestor.cpp)|
+Queue Block Remove|-|[d67_q3a_queue_block_remove.pdf](pdfs/d67_q3a_queue_block_remove.pdf)|[Solution](src/d67_q3a_queue_block_remove)|
 ## Practice Problems (81/124, 65% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
