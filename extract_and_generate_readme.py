@@ -142,6 +142,7 @@ def generateMarkdown():
 def download():
     existing = os.listdir("./pdfs")
 
+    downloaded = False
     first = True
     for t in tasks:
         filename = t["name"] + ".pdf"
@@ -160,11 +161,13 @@ def download():
         )
         # subprocess.run(['start','chrome'])
         # print("Opening", target_url)
+        downloaded = True
         if sys.platform == "linux":
             os.system(f"google-chrome-stable {target_url}")
         elif sys.platform == "darwin":
             os.system(f"open {target_url}")
         time.sleep(0.3 + random.randint(1, 10) / 10 * 0.5)
+    return downloaded
 
 
 def moveFromDownloadFolder():
@@ -177,6 +180,8 @@ def moveFromDownloadFolder():
         os.system(f"mv ~/Downloads/{t['name']} ./pdfs/{t['name'].strip()}.pdf")
 
 
-download()
+downloaded = download()
+if downloaded:
+    time.sleep(2)
 moveFromDownloadFolder()
 generateMarkdown()

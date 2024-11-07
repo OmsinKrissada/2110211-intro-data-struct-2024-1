@@ -30,9 +30,12 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 K-ary Lowest Common Ancestor|-|[d67_q3a_kheap_ancestor.pdf](pdfs/d67_q3a_kheap_ancestor.pdf)|[Solution](src/d67_q3a_kheap_ancestor.cpp)|
 Queue Block Remove|-|[d67_q3a_queue_block_remove.pdf](pdfs/d67_q3a_queue_block_remove.pdf)|[Solution](src/d67_q3a_queue_block_remove)|
-## Practice Problems (81/127, 64% done)
+## Practice Problems (81/130, 62% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
+Count Unary|★☆|[d58_q3_unary.pdf](pdfs/d58_q3_unary.pdf)|not done yet|
+ต้นไม้เหมือน|★☆|[d60_q3_same_tree.pdf](pdfs/d60_q3_same_tree.pdf)|not done yet|
+Subtree Extract|★★|[d64_q4a_subtree.pdf](pdfs/d64_q4a_subtree.pdf)|not done yet|
 Leaves Count|★☆|[d63_q4a_leaves_count.pdf](pdfs/d63_q4a_leaves_count.pdf)|not done yet|
 BST at level|★☆|[d65_q4a_bst_at_level.pdf](pdfs/d65_q4a_bst_at_level.pdf)|not done yet|
 Map Key in Range|-|[d66_f1_map_k_range.pdf](pdfs/d66_f1_map_k_range.pdf)|not done yet|
