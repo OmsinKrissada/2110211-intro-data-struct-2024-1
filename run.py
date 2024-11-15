@@ -82,8 +82,8 @@ def run_cpp_program(file_name):
     else:
         print(output)
 
-    footer = f"{round(compile_end - compile_begin,2)}s compile | {round(run_end - run_begin,2)}s execute"
-    print("-" * len(footer))
+    footer = f" {round(compile_end - compile_begin,2)}s compile │ {round(run_end - run_begin,2)}s execute "
+    print("".join(["┬" if c == "│" else "─" for c in footer]))
     print(footer)
 
 
