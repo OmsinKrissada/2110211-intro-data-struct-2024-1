@@ -30,23 +30,33 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 K-ary Lowest Common Ancestor|-|[d67_q3a_kheap_ancestor.pdf](pdfs/d67_q3a_kheap_ancestor.pdf)|[Solution](src/d67_q3a_kheap_ancestor.cpp)|
 Queue Block Remove|-|[d67_q3a_queue_block_remove.pdf](pdfs/d67_q3a_queue_block_remove.pdf)|[Solution](src/d67_q3a_queue_block_remove)|
-## Practice Problems (81/130, 62% done)
+## Practice Problems (82/140, 59% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
+Hash Max Bucket|★|[d62_q4a_hash_max_bucket.pdf](pdfs/d62_q4a_hash_max_bucket.pdf)|not done yet|
+Hash Longest Find|★★|[d66_f1_longest_find.pdf](pdfs/d66_f1_longest_find.pdf)|not done yet|
+Hash to Vector|★☆|[ds04_hash_tov.pdf](pdfs/ds04_hash_tov.pdf)|not done yet|
+BST Split|★★★☆|[d59_q3_bst_split.pdf](pdfs/d59_q3_bst_split.pdf)|not done yet|
+Optimal Binary Search Tree|★★☆|[ds04_best_bst.pdf](pdfs/ds04_best_bst.pdf)|not done yet|
+Left Child Right Sibling|★☆|[d66_f1_lcrs.pdf](pdfs/d66_f1_lcrs.pdf)|not done yet|
+BST Trim|★★|[d66_q4a_bst_trim.pdf](pdfs/d66_q4a_bst_trim.pdf)|not done yet|
+Imbalance|★★|[d61_q2_imbalance.pdf](pdfs/d61_q2_imbalance.pdf)|not done yet|
+Shallowest Leaf|★★|[d63_q4b_shallowest.pdf](pdfs/d63_q4b_shallowest.pdf)|not done yet|
+Tree Leaves Depth|★☆|[da66_m1_tree_leaves_depth.pdf](pdfs/da66_m1_tree_leaves_depth.pdf)|not done yet|
 Count Unary|★☆|[d58_q3_unary.pdf](pdfs/d58_q3_unary.pdf)|not done yet|
 ต้นไม้เหมือน|★☆|[d60_q3_same_tree.pdf](pdfs/d60_q3_same_tree.pdf)|not done yet|
 Subtree Extract|★★|[d64_q4a_subtree.pdf](pdfs/d64_q4a_subtree.pdf)|not done yet|
 Leaves Count|★☆|[d63_q4a_leaves_count.pdf](pdfs/d63_q4a_leaves_count.pdf)|not done yet|
 BST at level|★☆|[d65_q4a_bst_at_level.pdf](pdfs/d65_q4a_bst_at_level.pdf)|not done yet|
-Map Key in Range|-|[d66_f1_map_k_range.pdf](pdfs/d66_f1_map_k_range.pdf)|not done yet|
-List Block Swap|-|[d66_q4a_list_block_swap.pdf](pdfs/d66_q4a_list_block_swap.pdf)|not done yet|
+Map Key in Range|★★|[d66_f1_map_k_range.pdf](pdfs/d66_f1_map_k_range.pdf)|not done yet|
+List Block Swap|★★★|[d66_q4a_list_block_swap.pdf](pdfs/d66_q4a_list_block_swap.pdf)|not done yet|
 List Split|★★|[d59_q3_list_split.pdf](pdfs/d59_q3_list_split.pdf)|not done yet|
 List check|★★☆|[d65_q4a_list_check.pdf](pdfs/d65_q4a_list_check.pdf)|not done yet|
 Split List|★★|[d61_q2_splitlist.pdf](pdfs/d61_q2_splitlist.pdf)|not done yet|
 List Extract|★★|[d63_q4b_list_extract.pdf](pdfs/d63_q4b_list_extract.pdf)|not done yet|
 Playlist Management|★★|[ds04_playlist.pdf](pdfs/ds04_playlist.pdf)|not done yet|
 Shift|★☆|[d57_q3_shift.pdf](pdfs/d57_q3_shift.pdf)|not done yet|
-List Remove All|★☆|[d60_q3_lremove_all.pdf](pdfs/d60_q3_lremove_all.pdf)|not done yet|
+List Remove All|★☆|[d60_q3_lremove_all.pdf](pdfs/d60_q3_lremove_all.pdf)|[Solution](src/d60_q3_lremove_all)|
 List Merge|★☆|[d64_q4a_list_merge.pdf](pdfs/d64_q4a_list_merge.pdf)|not done yet|
 Zuma|★★★|[d57_q3_zuma.pdf](pdfs/d57_q3_zuma.pdf)|[Solution](src/d57_q3_zuma.cpp)|
 List Replace|★★|[d58_q3_list_replace.pdf](pdfs/d58_q3_list_replace.pdf)|[Solution](src/d58_q3_list_replace)|
