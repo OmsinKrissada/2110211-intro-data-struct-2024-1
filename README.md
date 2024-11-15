@@ -30,7 +30,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 K-ary Lowest Common Ancestor|-|[d67_q3a_kheap_ancestor.pdf](pdfs/d67_q3a_kheap_ancestor.pdf)|[Solution](src/d67_q3a_kheap_ancestor.cpp)|
 Queue Block Remove|-|[d67_q3a_queue_block_remove.pdf](pdfs/d67_q3a_queue_block_remove.pdf)|[Solution](src/d67_q3a_queue_block_remove)|
-## Practice Problems (83/140, 59% done)
+## Practice Problems (84/140, 60% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Hash Max Bucket|★|[d62_q4a_hash_max_bucket.pdf](pdfs/d62_q4a_hash_max_bucket.pdf)|not done yet|
@@ -48,7 +48,7 @@ Count Unary|★☆|[d58_q3_unary.pdf](pdfs/d58_q3_unary.pdf)|not done yet|
 Subtree Extract|★★|[d64_q4a_subtree.pdf](pdfs/d64_q4a_subtree.pdf)|not done yet|
 Leaves Count|★☆|[d63_q4a_leaves_count.pdf](pdfs/d63_q4a_leaves_count.pdf)|not done yet|
 BST at level|★☆|[d65_q4a_bst_at_level.pdf](pdfs/d65_q4a_bst_at_level.pdf)|[Solution](src/d65_q4a_bst_at_level)|
-Map Key in Range|★★|[d66_f1_map_k_range.pdf](pdfs/d66_f1_map_k_range.pdf)|not done yet|
+Map Key in Range|★★|[d66_f1_map_k_range.pdf](pdfs/d66_f1_map_k_range.pdf)|[Solution](src/d66_f1_map_k_range)|
 List Block Swap|★★★|[d66_q4a_list_block_swap.pdf](pdfs/d66_q4a_list_block_swap.pdf)|not done yet|
 List Split|★★|[d59_q3_list_split.pdf](pdfs/d59_q3_list_split.pdf)|not done yet|
 List check|★★☆|[d65_q4a_list_check.pdf](pdfs/d65_q4a_list_check.pdf)|not done yet|
