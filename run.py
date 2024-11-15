@@ -83,7 +83,7 @@ def run_cpp_program(file_name):
         print(output)
 
     footer = f" {round(compile_end - compile_begin,2)}s compile │ {round(run_end - run_begin,2)}s execute "
-    print("".join(["┬" if c == "│" else "─" for c in footer]))
+    print("\x1B[m" + "".join(["┬" if c == "│" else "─" for c in footer]))
     print(footer)
 
 
