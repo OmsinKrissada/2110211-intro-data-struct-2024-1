@@ -40,7 +40,7 @@ BST Split|★★★☆|[d59_q3_bst_split.pdf](pdfs/d59_q3_bst_split.pdf)|not don
 Optimal Binary Search Tree|★★☆|[ds04_best_bst.pdf](pdfs/ds04_best_bst.pdf)|not done yet|
 Left Child Right Sibling|★☆|[d66_f1_lcrs.pdf](pdfs/d66_f1_lcrs.pdf)|not done yet|
 BST Trim|★★|[d66_q4a_bst_trim.pdf](pdfs/d66_q4a_bst_trim.pdf)|not done yet|
-Imbalance|★★|[d61_q2_imbalance.pdf](pdfs/d61_q2_imbalance.pdf)|[Solution](src/d61_q2_imbalance)|
+Imbalance|★★|[d61_q2_imbalance.pdf](pdfs/d61_q2_imbalance.pdf)|[Solution](src/d61_q2_imbalance)|เลขใน main.cpp เหมือนใน PDF แต่จริงๆคนละ tree, ถ้า test ใน main.cpp ต้องได้ 76
 Shallowest Leaf|★★|[d63_q4b_shallowest.pdf](pdfs/d63_q4b_shallowest.pdf)|not done yet|
 Tree Leaves Depth|★☆|[da66_m1_tree_leaves_depth.pdf](pdfs/da66_m1_tree_leaves_depth.pdf)|not done yet|
 Count Unary|★☆|[d58_q3_unary.pdf](pdfs/d58_q3_unary.pdf)|not done yet|

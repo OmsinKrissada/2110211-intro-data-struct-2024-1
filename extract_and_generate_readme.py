@@ -36,6 +36,7 @@ remarks = {
     "d58_q2_custom": "i use tuple btw",
     "d57_q2_heap_order2": "tf ทำไมมันดูเหมือน ds03_heap_order เดะๆเลย",
     "d64_q3a_queue_check": "take a look at [this one](https://grader.nattee.net/submissions/473394)",
+    "d61_q2_imbalance": "เลขใน main.cpp เหมือนใน PDF แต่จริงๆคนละ tree, ถ้า test ใน main.cpp ต้องได้ 76",
 }
 
 quiz_names = set()
