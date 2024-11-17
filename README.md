@@ -30,14 +30,14 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 K-ary Lowest Common Ancestor|-|[d67_q3a_kheap_ancestor.pdf](pdfs/d67_q3a_kheap_ancestor.pdf)|[Solution](src/d67_q3a_kheap_ancestor.cpp)|
 Queue Block Remove|-|[d67_q3a_queue_block_remove.pdf](pdfs/d67_q3a_queue_block_remove.pdf)|[Solution](src/d67_q3a_queue_block_remove)|
-## Practice Problems (90/140, 64% done)
+## Practice Problems (91/140, 65% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Hash Max Bucket|★|[d62_q4a_hash_max_bucket.pdf](pdfs/d62_q4a_hash_max_bucket.pdf)|not done yet|
 Hash Longest Find|★★|[d66_f1_longest_find.pdf](pdfs/d66_f1_longest_find.pdf)|not done yet|
 Hash to Vector|★☆|[ds04_hash_tov.pdf](pdfs/ds04_hash_tov.pdf)|not done yet|
 BST Split|★★★☆|[d59_q3_bst_split.pdf](pdfs/d59_q3_bst_split.pdf)|not done yet|
-Optimal Binary Search Tree|★★☆|[ds04_best_bst.pdf](pdfs/ds04_best_bst.pdf)|not done yet|
+Optimal Binary Search Tree|★★☆|[ds04_best_bst.pdf](pdfs/ds04_best_bst.pdf)|[Solution](src/ds04_best_bst.cpp)|
 Left Child Right Sibling|★☆|[d66_f1_lcrs.pdf](pdfs/d66_f1_lcrs.pdf)|not done yet|
 BST Trim|★★|[d66_q4a_bst_trim.pdf](pdfs/d66_q4a_bst_trim.pdf)|[Solution](src/d66_q4a_bst_trim)|
 Imbalance|★★|[d61_q2_imbalance.pdf](pdfs/d61_q2_imbalance.pdf)|[Solution](src/d61_q2_imbalance)|เลขใน main.cpp เหมือนใน PDF แต่จริงๆคนละ tree, ถ้า test ใน main.cpp ต้องได้ 76
