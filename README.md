@@ -30,7 +30,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 K-ary Lowest Common Ancestor|-|[d67_q3a_kheap_ancestor.pdf](pdfs/d67_q3a_kheap_ancestor.pdf)|[Solution](src/d67_q3a_kheap_ancestor.cpp)|
 Queue Block Remove|-|[d67_q3a_queue_block_remove.pdf](pdfs/d67_q3a_queue_block_remove.pdf)|[Solution](src/d67_q3a_queue_block_remove)|
-## Practice Problems (91/140, 65% done)
+## Practice Problems (92/140, 66% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Hash Max Bucket|★|[d62_q4a_hash_max_bucket.pdf](pdfs/d62_q4a_hash_max_bucket.pdf)|not done yet|
@@ -51,7 +51,7 @@ BST at level|★☆|[d65_q4a_bst_at_level.pdf](pdfs/d65_q4a_bst_at_level.pdf)|[S
 Map Key in Range|★★|[d66_f1_map_k_range.pdf](pdfs/d66_f1_map_k_range.pdf)|[Solution](src/d66_f1_map_k_range)|
 List Block Swap|★★★|[d66_q4a_list_block_swap.pdf](pdfs/d66_q4a_list_block_swap.pdf)|not done yet|
 List Split|★★|[d59_q3_list_split.pdf](pdfs/d59_q3_list_split.pdf)|[Solution](src/d59_q3_list_split)|
-List check|★★☆|[d65_q4a_list_check.pdf](pdfs/d65_q4a_list_check.pdf)|not done yet|
+List check|★★☆|[d65_q4a_list_check.pdf](pdfs/d65_q4a_list_check.pdf)|[Solution](src/d65_q4a_list_check)|
 Split List|★★|[d61_q2_splitlist.pdf](pdfs/d61_q2_splitlist.pdf)|not done yet|
 List Extract|★★|[d63_q4b_list_extract.pdf](pdfs/d63_q4b_list_extract.pdf)|not done yet|
 Playlist Management|★★|[ds04_playlist.pdf](pdfs/ds04_playlist.pdf)|[Solution](src/ds04_playlist.cpp)|
