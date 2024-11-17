@@ -30,7 +30,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 K-ary Lowest Common Ancestor|-|[d67_q3a_kheap_ancestor.pdf](pdfs/d67_q3a_kheap_ancestor.pdf)|[Solution](src/d67_q3a_kheap_ancestor.cpp)|
 Queue Block Remove|-|[d67_q3a_queue_block_remove.pdf](pdfs/d67_q3a_queue_block_remove.pdf)|[Solution](src/d67_q3a_queue_block_remove)|
-## Practice Problems (84/140, 60% done)
+## Practice Problems (85/140, 61% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Hash Max Bucket|★|[d62_q4a_hash_max_bucket.pdf](pdfs/d62_q4a_hash_max_bucket.pdf)|not done yet|
@@ -57,7 +57,7 @@ List Extract|★★|[d63_q4b_list_extract.pdf](pdfs/d63_q4b_list_extract.pdf)|no
 Playlist Management|★★|[ds04_playlist.pdf](pdfs/ds04_playlist.pdf)|not done yet|
 Shift|★☆|[d57_q3_shift.pdf](pdfs/d57_q3_shift.pdf)|not done yet|
 List Remove All|★☆|[d60_q3_lremove_all.pdf](pdfs/d60_q3_lremove_all.pdf)|[Solution](src/d60_q3_lremove_all)|
-List Merge|★☆|[d64_q4a_list_merge.pdf](pdfs/d64_q4a_list_merge.pdf)|not done yet|
+List Merge|★☆|[d64_q4a_list_merge.pdf](pdfs/d64_q4a_list_merge.pdf)|[Solution](src/d64_q4a_list_merge)|
 Zuma|★★★|[d57_q3_zuma.pdf](pdfs/d57_q3_zuma.pdf)|[Solution](src/d57_q3_zuma.cpp)|
 List Replace|★★|[d58_q3_list_replace.pdf](pdfs/d58_q3_list_replace.pdf)|[Solution](src/d58_q3_list_replace)|
 List Reverse|★★|[d63_q4a_list_reverse.pdf](pdfs/d63_q4a_list_reverse.pdf)|[Solution](src/d63_q4a_list_reverse)|
