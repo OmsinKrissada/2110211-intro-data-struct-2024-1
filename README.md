@@ -30,7 +30,7 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 K-ary Lowest Common Ancestor|-|[d67_q3a_kheap_ancestor.pdf](pdfs/d67_q3a_kheap_ancestor.pdf)|[Solution](src/d67_q3a_kheap_ancestor.cpp)|
 Queue Block Remove|-|[d67_q3a_queue_block_remove.pdf](pdfs/d67_q3a_queue_block_remove.pdf)|[Solution](src/d67_q3a_queue_block_remove)|
-## Practice Problems (88/140, 63% done)
+## Practice Problems (89/140, 64% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 Hash Max Bucket|★|[d62_q4a_hash_max_bucket.pdf](pdfs/d62_q4a_hash_max_bucket.pdf)|not done yet|
@@ -40,7 +40,7 @@ BST Split|★★★☆|[d59_q3_bst_split.pdf](pdfs/d59_q3_bst_split.pdf)|not don
 Optimal Binary Search Tree|★★☆|[ds04_best_bst.pdf](pdfs/ds04_best_bst.pdf)|not done yet|
 Left Child Right Sibling|★☆|[d66_f1_lcrs.pdf](pdfs/d66_f1_lcrs.pdf)|not done yet|
 BST Trim|★★|[d66_q4a_bst_trim.pdf](pdfs/d66_q4a_bst_trim.pdf)|not done yet|
-Imbalance|★★|[d61_q2_imbalance.pdf](pdfs/d61_q2_imbalance.pdf)|not done yet|
+Imbalance|★★|[d61_q2_imbalance.pdf](pdfs/d61_q2_imbalance.pdf)|[Solution](src/d61_q2_imbalance)|
 Shallowest Leaf|★★|[d63_q4b_shallowest.pdf](pdfs/d63_q4b_shallowest.pdf)|not done yet|
 Tree Leaves Depth|★☆|[da66_m1_tree_leaves_depth.pdf](pdfs/da66_m1_tree_leaves_depth.pdf)|not done yet|
 Count Unary|★☆|[d58_q3_unary.pdf](pdfs/d58_q3_unary.pdf)|not done yet|
