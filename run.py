@@ -82,8 +82,11 @@ def run_cpp_program(file_name):
     else:
         print(output)
 
-    footer = f" {round(compile_end - compile_begin,2)}s compile │ {round(run_end - run_begin,2)}s execute "
-    print("\x1B[m" + "".join(["┬" if c == "│" else "─" for c in footer]))
+    ESC = "\x1B"
+    time_compile = compile_end - compile_begin
+    time_execute = run_end - run_begin
+    footer = f" {round(time_compile, 2)}s compile │ {ESC+'[31m' if time_execute > 1.6 else ''}{round(time_execute, 2)}s execute "
+    print(f"{ESC}[m" + "".join(["┬" if c == "│" else "─" for c in footer]))
     print(footer)
 
 
