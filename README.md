@@ -31,7 +31,7 @@ Name|Stars|PDF|My Solution|Remarks
 K-ary Lowest Common Ancestor|-|[d67_q3a_kheap_ancestor.pdf](pdfs/d67_q3a_kheap_ancestor.pdf)|[Solution](src/d67_q3a_kheap_ancestor.cpp)|
 Queue Block Remove|-|[d67_q3a_queue_block_remove.pdf](pdfs/d67_q3a_queue_block_remove.pdf)|[Solution](src/d67_q3a_queue_block_remove)|
 K-ary Path To Node|-|[d67_q3b_k_ary_path_to_node.pdf](pdfs/d67_q3b_k_ary_path_to_node.pdf)|[Solution](src/d67_q3b_k_ary_path_to_node.cpp)|
-### Quiz 4 (Pointer, List, Tree)
+### Quiz 4 (Pointer, List, Tree) [first try btw :)](extra/first_try_proof.png)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 List Iterator Position|-|[d67_q4a_list_iterator_position.pdf](pdfs/d67_q4a_list_iterator_position.pdf)|[Solution](src/d67_q4a_list_iterator_position)|
