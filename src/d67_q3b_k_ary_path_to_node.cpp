@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-    size_t depth = 0;
     stack<size_t> s;
 
     size_t n, k, want;
