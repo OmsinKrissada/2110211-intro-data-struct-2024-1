@@ -22,6 +22,11 @@ quizes = {
     "Quiz 3 (Queue & Priority Queue)": [
         "d67_q3a_kheap_ancestor",
         "d67_q3a_queue_block_remove",
+        "d67_q3b_k_ary_path_to_node",
+    ],
+    "Quiz 4 (Pointer, List, Tree)": [
+        "d67_q4a_list_iterator_position",
+        "d67_q4a-bst-node-relation",
     ],
 }
 
