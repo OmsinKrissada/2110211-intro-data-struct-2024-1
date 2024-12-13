@@ -36,10 +36,10 @@ Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
 List Iterator Position|-|[d67_q4a_list_iterator_position.pdf](pdfs/d67_q4a_list_iterator_position.pdf)|[Solution](src/d67_q4a_list_iterator_position)|
 BST Node Relation|-|[d67_q4a-bst-node-relation.pdf](pdfs/d67_q4a-bst-node-relation.pdf)|[Solution](src/d67_q4a-bst-node-relation)|
-## Practice Problems (92/140, 66% done)
+## Practice Problems (93/140, 66% done)
 Name|Stars|PDF|My Solution|Remarks
 ---|---|---|---|---
-Hash Max Bucket|★|[d62_q4a_hash_max_bucket.pdf](pdfs/d62_q4a_hash_max_bucket.pdf)|not done yet|
+Hash Max Bucket|★|[d62_q4a_hash_max_bucket.pdf](pdfs/d62_q4a_hash_max_bucket.pdf)|[Solution](src/d62_q4a_hash_max_bucket)|testcase แรกในโจทย์ผิด ต้องเป็น 1 1 1 2 3
 Hash Longest Find|★★|[d66_f1_longest_find.pdf](pdfs/d66_f1_longest_find.pdf)|not done yet|
 Hash to Vector|★☆|[ds04_hash_tov.pdf](pdfs/ds04_hash_tov.pdf)|not done yet|
 BST Split|★★★☆|[d59_q3_bst_split.pdf](pdfs/d59_q3_bst_split.pdf)|not done yet|
